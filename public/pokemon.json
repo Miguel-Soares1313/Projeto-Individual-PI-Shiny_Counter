@@ -1,0 +1,3247 @@
+{
+  "1": {
+    "id": 1,
+    "name": "Bulbasaur",
+    "img": "imgs/shiny/1.gif"
+  },
+  "2": {
+    "id": 2,
+    "name": "Ivysaur",
+    "img": "imgs/shiny/2.gif"
+  },
+  "3": {
+    "id": 3,
+    "name": "Venusaur",
+    "img": "imgs/shiny/3.gif"
+  },
+  "4": {
+    "id": 4,
+    "name": "Charmander",
+    "img": "imgs/shiny/4.gif"
+  },
+  "5": {
+    "id": 5,
+    "name": "Charmeleon",
+    "img": "imgs/shiny/5.gif"
+  },
+  "6": {
+    "id": 6,
+    "name": "Charizard",
+    "img": "imgs/shiny/6.gif"
+  },
+  "7": {
+    "id": 7,
+    "name": "Squirtle",
+    "img": "imgs/shiny/7.gif"
+  },
+  "8": {
+    "id": 8,
+    "name": "Wartortle",
+    "img": "imgs/shiny/8.gif"
+  },
+  "9": {
+    "id": 9,
+    "name": "Blastoise",
+    "img": "imgs/shiny/9.gif"
+  },
+  "10": {
+    "id": 10,
+    "name": "Caterpie",
+    "img": "imgs/shiny/10.gif"
+  },
+  "11": {
+    "id": 11,
+    "name": "Metapod",
+    "img": "imgs/shiny/11.gif"
+  },
+  "12": {
+    "id": 12,
+    "name": "Butterfree",
+    "img": "imgs/shiny/12.gif"
+  },
+  "13": {
+    "id": 13,
+    "name": "Weedle",
+    "img": "imgs/shiny/13.gif"
+  },
+  "14": {
+    "id": 14,
+    "name": "Kakuna",
+    "img": "imgs/shiny/14.gif"
+  },
+  "15": {
+    "id": 15,
+    "name": "Beedrill",
+    "img": "imgs/shiny/15.gif"
+  },
+  "16": {
+    "id": 16,
+    "name": "Pidgey",
+    "img": "imgs/shiny/16.gif"
+  },
+  "17": {
+    "id": 17,
+    "name": "Pidgeotto",
+    "img": "imgs/shiny/17.gif"
+  },
+  "18": {
+    "id": 18,
+    "name": "Pidgeot",
+    "img": "imgs/shiny/18.gif"
+  },
+  "19": {
+    "id": 19,
+    "name": "Rattata",
+    "img": "imgs/shiny/19.gif"
+  },
+  "20": {
+    "id": 20,
+    "name": "Raticate",
+    "img": "imgs/shiny/20.gif"
+  },
+  "21": {
+    "id": 21,
+    "name": "Spearow",
+    "img": "imgs/shiny/21.gif"
+  },
+  "22": {
+    "id": 22,
+    "name": "Fearow",
+    "img": "imgs/shiny/22.gif"
+  },
+  "23": {
+    "id": 23,
+    "name": "Ekans",
+    "img": "imgs/shiny/23.gif"
+  },
+  "24": {
+    "id": 24,
+    "name": "Arbok",
+    "img": "imgs/shiny/24.gif"
+  },
+  "25": {
+    "id": 25,
+    "name": "Pikachu",
+    "img": "imgs/shiny/25.gif"
+  },
+  "26": {
+    "id": 26,
+    "name": "Raichu",
+    "img": "imgs/shiny/26.gif"
+  },
+  "27": {
+    "id": 27,
+    "name": "Sandshrew",
+    "img": "imgs/shiny/27.gif"
+  },
+  "28": {
+    "id": 28,
+    "name": "Sandslash",
+    "img": "imgs/shiny/28.gif"
+  },
+  "29": {
+    "id": 29,
+    "name": "Nidoran-f",
+    "img": "imgs/shiny/29.gif"
+  },
+  "30": {
+    "id": 30,
+    "name": "Nidorina",
+    "img": "imgs/shiny/30.gif"
+  },
+  "31": {
+    "id": 31,
+    "name": "Nidoqueen",
+    "img": "imgs/shiny/31.gif"
+  },
+  "32": {
+    "id": 32,
+    "name": "Nidoran-m",
+    "img": "imgs/shiny/32.gif"
+  },
+  "33": {
+    "id": 33,
+    "name": "Nidorino",
+    "img": "imgs/shiny/33.gif"
+  },
+  "34": {
+    "id": 34,
+    "name": "Nidoking",
+    "img": "imgs/shiny/34.gif"
+  },
+  "35": {
+    "id": 35,
+    "name": "Clefairy",
+    "img": "imgs/shiny/35.gif"
+  },
+  "36": {
+    "id": 36,
+    "name": "Clefable",
+    "img": "imgs/shiny/36.gif"
+  },
+  "37": {
+    "id": 37,
+    "name": "Vulpix",
+    "img": "imgs/shiny/37.gif"
+  },
+  "38": {
+    "id": 38,
+    "name": "Ninetales",
+    "img": "imgs/shiny/38.gif"
+  },
+  "39": {
+    "id": 39,
+    "name": "Jigglypuff",
+    "img": "imgs/shiny/39.gif"
+  },
+  "40": {
+    "id": 40,
+    "name": "Wigglytuff",
+    "img": "imgs/shiny/40.gif"
+  },
+  "41": {
+    "id": 41,
+    "name": "Zubat",
+    "img": "imgs/shiny/41.gif"
+  },
+  "42": {
+    "id": 42,
+    "name": "Golbat",
+    "img": "imgs/shiny/42.gif"
+  },
+  "43": {
+    "id": 43,
+    "name": "Oddish",
+    "img": "imgs/shiny/43.gif"
+  },
+  "44": {
+    "id": 44,
+    "name": "Gloom",
+    "img": "imgs/shiny/44.gif"
+  },
+  "45": {
+    "id": 45,
+    "name": "Vileplume",
+    "img": "imgs/shiny/45.gif"
+  },
+  "46": {
+    "id": 46,
+    "name": "Paras",
+    "img": "imgs/shiny/46.gif"
+  },
+  "47": {
+    "id": 47,
+    "name": "Parasect",
+    "img": "imgs/shiny/47.gif"
+  },
+  "48": {
+    "id": 48,
+    "name": "Venonat",
+    "img": "imgs/shiny/48.gif"
+  },
+  "49": {
+    "id": 49,
+    "name": "Venomoth",
+    "img": "imgs/shiny/49.gif"
+  },
+  "50": {
+    "id": 50,
+    "name": "Diglett",
+    "img": "imgs/shiny/50.gif"
+  },
+  "51": {
+    "id": 51,
+    "name": "Dugtrio",
+    "img": "imgs/shiny/51.gif"
+  },
+  "52": {
+    "id": 52,
+    "name": "Meowth",
+    "img": "imgs/shiny/52.gif"
+  },
+  "53": {
+    "id": 53,
+    "name": "Persian",
+    "img": "imgs/shiny/53.gif"
+  },
+  "54": {
+    "id": 54,
+    "name": "Psyduck",
+    "img": "imgs/shiny/54.gif"
+  },
+  "55": {
+    "id": 55,
+    "name": "Golduck",
+    "img": "imgs/shiny/55.gif"
+  },
+  "56": {
+    "id": 56,
+    "name": "Mankey",
+    "img": "imgs/shiny/56.gif"
+  },
+  "57": {
+    "id": 57,
+    "name": "Primeape",
+    "img": "imgs/shiny/57.gif"
+  },
+  "58": {
+    "id": 58,
+    "name": "Growlithe",
+    "img": "imgs/shiny/58.gif"
+  },
+  "59": {
+    "id": 59,
+    "name": "Arcanine",
+    "img": "imgs/shiny/59.gif"
+  },
+  "60": {
+    "id": 60,
+    "name": "Poliwag",
+    "img": "imgs/shiny/60.gif"
+  },
+  "61": {
+    "id": 61,
+    "name": "Poliwhirl",
+    "img": "imgs/shiny/61.gif"
+  },
+  "62": {
+    "id": 62,
+    "name": "Poliwrath",
+    "img": "imgs/shiny/62.gif"
+  },
+  "63": {
+    "id": 63,
+    "name": "Abra",
+    "img": "imgs/shiny/63.gif"
+  },
+  "64": {
+    "id": 64,
+    "name": "Kadabra",
+    "img": "imgs/shiny/64.gif"
+  },
+  "65": {
+    "id": 65,
+    "name": "Alakazam",
+    "img": "imgs/shiny/65.gif"
+  },
+  "66": {
+    "id": 66,
+    "name": "Machop",
+    "img": "imgs/shiny/66.gif"
+  },
+  "67": {
+    "id": 67,
+    "name": "Machoke",
+    "img": "imgs/shiny/67.gif"
+  },
+  "68": {
+    "id": 68,
+    "name": "Machamp",
+    "img": "imgs/shiny/68.gif"
+  },
+  "69": {
+    "id": 69,
+    "name": "Bellsprout",
+    "img": "imgs/shiny/69.gif"
+  },
+  "70": {
+    "id": 70,
+    "name": "Weepinbell",
+    "img": "imgs/shiny/70.gif"
+  },
+  "71": {
+    "id": 71,
+    "name": "Victreebel",
+    "img": "imgs/shiny/71.gif"
+  },
+  "72": {
+    "id": 72,
+    "name": "Tentacool",
+    "img": "imgs/shiny/72.gif"
+  },
+  "73": {
+    "id": 73,
+    "name": "Tentacruel",
+    "img": "imgs/shiny/73.gif"
+  },
+  "74": {
+    "id": 74,
+    "name": "Geodude",
+    "img": "imgs/shiny/74.gif"
+  },
+  "75": {
+    "id": 75,
+    "name": "Graveler",
+    "img": "imgs/shiny/75.gif"
+  },
+  "76": {
+    "id": 76,
+    "name": "Golem",
+    "img": "imgs/shiny/76.gif"
+  },
+  "77": {
+    "id": 77,
+    "name": "Ponyta",
+    "img": "imgs/shiny/77.gif"
+  },
+  "78": {
+    "id": 78,
+    "name": "Rapidash",
+    "img": "imgs/shiny/78.gif"
+  },
+  "79": {
+    "id": 79,
+    "name": "Slowpoke",
+    "img": "imgs/shiny/79.gif"
+  },
+  "80": {
+    "id": 80,
+    "name": "Slowbro",
+    "img": "imgs/shiny/80.gif"
+  },
+  "81": {
+    "id": 81,
+    "name": "Magnemite",
+    "img": "imgs/shiny/81.gif"
+  },
+  "82": {
+    "id": 82,
+    "name": "Magneton",
+    "img": "imgs/shiny/82.gif"
+  },
+  "83": {
+    "id": 83,
+    "name": "Farfetchd",
+    "img": "imgs/shiny/83.gif"
+  },
+  "84": {
+    "id": 84,
+    "name": "Doduo",
+    "img": "imgs/shiny/84.gif"
+  },
+  "85": {
+    "id": 85,
+    "name": "Dodrio",
+    "img": "imgs/shiny/85.gif"
+  },
+  "86": {
+    "id": 86,
+    "name": "Seel",
+    "img": "imgs/shiny/86.gif"
+  },
+  "87": {
+    "id": 87,
+    "name": "Dewgong",
+    "img": "imgs/shiny/87.gif"
+  },
+  "88": {
+    "id": 88,
+    "name": "Grimer",
+    "img": "imgs/shiny/88.gif"
+  },
+  "89": {
+    "id": 89,
+    "name": "Muk",
+    "img": "imgs/shiny/89.gif"
+  },
+  "90": {
+    "id": 90,
+    "name": "Shellder",
+    "img": "imgs/shiny/90.gif"
+  },
+  "91": {
+    "id": 91,
+    "name": "Cloyster",
+    "img": "imgs/shiny/91.gif"
+  },
+  "92": {
+    "id": 92,
+    "name": "Gastly",
+    "img": "imgs/shiny/92.gif"
+  },
+  "93": {
+    "id": 93,
+    "name": "Haunter",
+    "img": "imgs/shiny/93.gif"
+  },
+  "94": {
+    "id": 94,
+    "name": "Gengar",
+    "img": "imgs/shiny/94.gif"
+  },
+  "95": {
+    "id": 95,
+    "name": "Onix",
+    "img": "imgs/shiny/95.gif"
+  },
+  "96": {
+    "id": 96,
+    "name": "Drowzee",
+    "img": "imgs/shiny/96.gif"
+  },
+  "97": {
+    "id": 97,
+    "name": "Hypno",
+    "img": "imgs/shiny/97.gif"
+  },
+  "98": {
+    "id": 98,
+    "name": "Krabby",
+    "img": "imgs/shiny/98.gif"
+  },
+  "99": {
+    "id": 99,
+    "name": "Kingler",
+    "img": "imgs/shiny/99.gif"
+  },
+  "100": {
+    "id": 100,
+    "name": "Voltorb",
+    "img": "imgs/shiny/100.gif"
+  },
+  "101": {
+    "id": 101,
+    "name": "Electrode",
+    "img": "imgs/shiny/101.gif"
+  },
+  "102": {
+    "id": 102,
+    "name": "Exeggcute",
+    "img": "imgs/shiny/102.gif"
+  },
+  "103": {
+    "id": 103,
+    "name": "Exeggutor",
+    "img": "imgs/shiny/103.gif"
+  },
+  "104": {
+    "id": 104,
+    "name": "Cubone",
+    "img": "imgs/shiny/104.gif"
+  },
+  "105": {
+    "id": 105,
+    "name": "Marowak",
+    "img": "imgs/shiny/105.gif"
+  },
+  "106": {
+    "id": 106,
+    "name": "Hitmonlee",
+    "img": "imgs/shiny/106.gif"
+  },
+  "107": {
+    "id": 107,
+    "name": "Hitmonchan",
+    "img": "imgs/shiny/107.gif"
+  },
+  "108": {
+    "id": 108,
+    "name": "Lickitung",
+    "img": "imgs/shiny/108.gif"
+  },
+  "109": {
+    "id": 109,
+    "name": "Koffing",
+    "img": "imgs/shiny/109.gif"
+  },
+  "110": {
+    "id": 110,
+    "name": "Weezing",
+    "img": "imgs/shiny/110.gif"
+  },
+  "111": {
+    "id": 111,
+    "name": "Rhyhorn",
+    "img": "imgs/shiny/111.gif"
+  },
+  "112": {
+    "id": 112,
+    "name": "Rhydon",
+    "img": "imgs/shiny/112.gif"
+  },
+  "113": {
+    "id": 113,
+    "name": "Chansey",
+    "img": "imgs/shiny/113.gif"
+  },
+  "114": {
+    "id": 114,
+    "name": "Tangela",
+    "img": "imgs/shiny/114.gif"
+  },
+  "115": {
+    "id": 115,
+    "name": "Kangaskhan",
+    "img": "imgs/shiny/115.gif"
+  },
+  "116": {
+    "id": 116,
+    "name": "Horsea",
+    "img": "imgs/shiny/116.gif"
+  },
+  "117": {
+    "id": 117,
+    "name": "Seadra",
+    "img": "imgs/shiny/117.gif"
+  },
+  "118": {
+    "id": 118,
+    "name": "Goldeen",
+    "img": "imgs/shiny/118.gif"
+  },
+  "119": {
+    "id": 119,
+    "name": "Seaking",
+    "img": "imgs/shiny/119.gif"
+  },
+  "120": {
+    "id": 120,
+    "name": "Staryu",
+    "img": "imgs/shiny/120.gif"
+  },
+  "121": {
+    "id": 121,
+    "name": "Starmie",
+    "img": "imgs/shiny/121.gif"
+  },
+  "122": {
+    "id": 122,
+    "name": "Mr-mime",
+    "img": "imgs/shiny/122.gif"
+  },
+  "123": {
+    "id": 123,
+    "name": "Scyther",
+    "img": "imgs/shiny/123.gif"
+  },
+  "124": {
+    "id": 124,
+    "name": "Jynx",
+    "img": "imgs/shiny/124.gif"
+  },
+  "125": {
+    "id": 125,
+    "name": "Electabuzz",
+    "img": "imgs/shiny/125.gif"
+  },
+  "126": {
+    "id": 126,
+    "name": "Magmar",
+    "img": "imgs/shiny/126.gif"
+  },
+  "127": {
+    "id": 127,
+    "name": "Pinsir",
+    "img": "imgs/shiny/127.gif"
+  },
+  "128": {
+    "id": 128,
+    "name": "Tauros",
+    "img": "imgs/shiny/128.gif"
+  },
+  "129": {
+    "id": 129,
+    "name": "Magikarp",
+    "img": "imgs/shiny/129.gif"
+  },
+  "130": {
+    "id": 130,
+    "name": "Gyarados",
+    "img": "imgs/shiny/130.gif"
+  },
+  "131": {
+    "id": 131,
+    "name": "Lapras",
+    "img": "imgs/shiny/131.gif"
+  },
+  "132": {
+    "id": 132,
+    "name": "Ditto",
+    "img": "imgs/shiny/132.gif"
+  },
+  "133": {
+    "id": 133,
+    "name": "Eevee",
+    "img": "imgs/shiny/133.gif"
+  },
+  "134": {
+    "id": 134,
+    "name": "Vaporeon",
+    "img": "imgs/shiny/134.gif"
+  },
+  "135": {
+    "id": 135,
+    "name": "Jolteon",
+    "img": "imgs/shiny/135.gif"
+  },
+  "136": {
+    "id": 136,
+    "name": "Flareon",
+    "img": "imgs/shiny/136.gif"
+  },
+  "137": {
+    "id": 137,
+    "name": "Porygon",
+    "img": "imgs/shiny/137.gif"
+  },
+  "138": {
+    "id": 138,
+    "name": "Omanyte",
+    "img": "imgs/shiny/138.gif"
+  },
+  "139": {
+    "id": 139,
+    "name": "Omastar",
+    "img": "imgs/shiny/139.gif"
+  },
+  "140": {
+    "id": 140,
+    "name": "Kabuto",
+    "img": "imgs/shiny/140.gif"
+  },
+  "141": {
+    "id": 141,
+    "name": "Kabutops",
+    "img": "imgs/shiny/141.gif"
+  },
+  "142": {
+    "id": 142,
+    "name": "Aerodactyl",
+    "img": "imgs/shiny/142.gif"
+  },
+  "143": {
+    "id": 143,
+    "name": "Snorlax",
+    "img": "imgs/shiny/143.gif"
+  },
+  "144": {
+    "id": 144,
+    "name": "Articuno",
+    "img": "imgs/shiny/144.gif"
+  },
+  "145": {
+    "id": 145,
+    "name": "Zapdos",
+    "img": "imgs/shiny/145.gif"
+  },
+  "146": {
+    "id": 146,
+    "name": "Moltres",
+    "img": "imgs/shiny/146.gif"
+  },
+  "147": {
+    "id": 147,
+    "name": "Dratini",
+    "img": "imgs/shiny/147.gif"
+  },
+  "148": {
+    "id": 148,
+    "name": "Dragonair",
+    "img": "imgs/shiny/148.gif"
+  },
+  "149": {
+    "id": 149,
+    "name": "Dragonite",
+    "img": "imgs/shiny/149.gif"
+  },
+  "150": {
+    "id": 150,
+    "name": "Mewtwo",
+    "img": "imgs/shiny/150.gif"
+  },
+  "151": {
+    "id": 151,
+    "name": "Mew",
+    "img": "imgs/shiny/151.gif"
+  },
+  "152": {
+    "id": 152,
+    "name": "Chikorita",
+    "img": "imgs/shiny/152.gif"
+  },
+  "153": {
+    "id": 153,
+    "name": "Bayleef",
+    "img": "imgs/shiny/153.gif"
+  },
+  "154": {
+    "id": 154,
+    "name": "Meganium",
+    "img": "imgs/shiny/154.gif"
+  },
+  "155": {
+    "id": 155,
+    "name": "Cyndaquil",
+    "img": "imgs/shiny/155.gif"
+  },
+  "156": {
+    "id": 156,
+    "name": "Quilava",
+    "img": "imgs/shiny/156.gif"
+  },
+  "157": {
+    "id": 157,
+    "name": "Typhlosion",
+    "img": "imgs/shiny/157.gif"
+  },
+  "158": {
+    "id": 158,
+    "name": "Totodile",
+    "img": "imgs/shiny/158.gif"
+  },
+  "159": {
+    "id": 159,
+    "name": "Croconaw",
+    "img": "imgs/shiny/159.gif"
+  },
+  "160": {
+    "id": 160,
+    "name": "Feraligatr",
+    "img": "imgs/shiny/160.gif"
+  },
+  "161": {
+    "id": 161,
+    "name": "Sentret",
+    "img": "imgs/shiny/161.gif"
+  },
+  "162": {
+    "id": 162,
+    "name": "Furret",
+    "img": "imgs/shiny/162.gif"
+  },
+  "163": {
+    "id": 163,
+    "name": "Hoothoot",
+    "img": "imgs/shiny/163.gif"
+  },
+  "164": {
+    "id": 164,
+    "name": "Noctowl",
+    "img": "imgs/shiny/164.gif"
+  },
+  "165": {
+    "id": 165,
+    "name": "Ledyba",
+    "img": "imgs/shiny/165.gif"
+  },
+  "166": {
+    "id": 166,
+    "name": "Ledian",
+    "img": "imgs/shiny/166.gif"
+  },
+  "167": {
+    "id": 167,
+    "name": "Spinarak",
+    "img": "imgs/shiny/167.gif"
+  },
+  "168": {
+    "id": 168,
+    "name": "Ariados",
+    "img": "imgs/shiny/168.gif"
+  },
+  "169": {
+    "id": 169,
+    "name": "Crobat",
+    "img": "imgs/shiny/169.gif"
+  },
+  "170": {
+    "id": 170,
+    "name": "Chinchou",
+    "img": "imgs/shiny/170.gif"
+  },
+  "171": {
+    "id": 171,
+    "name": "Lanturn",
+    "img": "imgs/shiny/171.gif"
+  },
+  "172": {
+    "id": 172,
+    "name": "Pichu",
+    "img": "imgs/shiny/172.gif"
+  },
+  "173": {
+    "id": 173,
+    "name": "Cleffa",
+    "img": "imgs/shiny/173.gif"
+  },
+  "174": {
+    "id": 174,
+    "name": "Igglybuff",
+    "img": "imgs/shiny/174.gif"
+  },
+  "175": {
+    "id": 175,
+    "name": "Togepi",
+    "img": "imgs/shiny/175.gif"
+  },
+  "176": {
+    "id": 176,
+    "name": "Togetic",
+    "img": "imgs/shiny/176.gif"
+  },
+  "177": {
+    "id": 177,
+    "name": "Natu",
+    "img": "imgs/shiny/177.gif"
+  },
+  "178": {
+    "id": 178,
+    "name": "Xatu",
+    "img": "imgs/shiny/178.gif"
+  },
+  "179": {
+    "id": 179,
+    "name": "Mareep",
+    "img": "imgs/shiny/179.gif"
+  },
+  "180": {
+    "id": 180,
+    "name": "Flaaffy",
+    "img": "imgs/shiny/180.gif"
+  },
+  "181": {
+    "id": 181,
+    "name": "Ampharos",
+    "img": "imgs/shiny/181.gif"
+  },
+  "182": {
+    "id": 182,
+    "name": "Bellossom",
+    "img": "imgs/shiny/182.gif"
+  },
+  "183": {
+    "id": 183,
+    "name": "Marill",
+    "img": "imgs/shiny/183.gif"
+  },
+  "184": {
+    "id": 184,
+    "name": "Azumarill",
+    "img": "imgs/shiny/184.gif"
+  },
+  "185": {
+    "id": 185,
+    "name": "Sudowoodo",
+    "img": "imgs/shiny/185.gif"
+  },
+  "186": {
+    "id": 186,
+    "name": "Politoed",
+    "img": "imgs/shiny/186.gif"
+  },
+  "187": {
+    "id": 187,
+    "name": "Hoppip",
+    "img": "imgs/shiny/187.gif"
+  },
+  "188": {
+    "id": 188,
+    "name": "Skiploom",
+    "img": "imgs/shiny/188.gif"
+  },
+  "189": {
+    "id": 189,
+    "name": "Jumpluff",
+    "img": "imgs/shiny/189.gif"
+  },
+  "190": {
+    "id": 190,
+    "name": "Aipom",
+    "img": "imgs/shiny/190.gif"
+  },
+  "191": {
+    "id": 191,
+    "name": "Sunkern",
+    "img": "imgs/shiny/191.gif"
+  },
+  "192": {
+    "id": 192,
+    "name": "Sunflora",
+    "img": "imgs/shiny/192.gif"
+  },
+  "193": {
+    "id": 193,
+    "name": "Yanma",
+    "img": "imgs/shiny/193.gif"
+  },
+  "194": {
+    "id": 194,
+    "name": "Wooper",
+    "img": "imgs/shiny/194.gif"
+  },
+  "195": {
+    "id": 195,
+    "name": "Quagsire",
+    "img": "imgs/shiny/195.gif"
+  },
+  "196": {
+    "id": 196,
+    "name": "Espeon",
+    "img": "imgs/shiny/196.gif"
+  },
+  "197": {
+    "id": 197,
+    "name": "Umbreon",
+    "img": "imgs/shiny/197.gif"
+  },
+  "198": {
+    "id": 198,
+    "name": "Murkrow",
+    "img": "imgs/shiny/198.gif"
+  },
+  "199": {
+    "id": 199,
+    "name": "Slowking",
+    "img": "imgs/shiny/199.gif"
+  },
+  "200": {
+    "id": 200,
+    "name": "Misdreavus",
+    "img": "imgs/shiny/200.gif"
+  },
+  "201": {
+    "id": 201,
+    "name": "Unown",
+    "img": "imgs/shiny/201.gif"
+  },
+  "202": {
+    "id": 202,
+    "name": "Wobbuffet",
+    "img": "imgs/shiny/202.gif"
+  },
+  "203": {
+    "id": 203,
+    "name": "Girafarig",
+    "img": "imgs/shiny/203.gif"
+  },
+  "204": {
+    "id": 204,
+    "name": "Pineco",
+    "img": "imgs/shiny/204.gif"
+  },
+  "205": {
+    "id": 205,
+    "name": "Forretress",
+    "img": "imgs/shiny/205.gif"
+  },
+  "206": {
+    "id": 206,
+    "name": "Dunsparce",
+    "img": "imgs/shiny/206.gif"
+  },
+  "207": {
+    "id": 207,
+    "name": "Gligar",
+    "img": "imgs/shiny/207.gif"
+  },
+  "208": {
+    "id": 208,
+    "name": "Steelix",
+    "img": "imgs/shiny/208.gif"
+  },
+  "209": {
+    "id": 209,
+    "name": "Snubbull",
+    "img": "imgs/shiny/209.gif"
+  },
+  "210": {
+    "id": 210,
+    "name": "Granbull",
+    "img": "imgs/shiny/210.gif"
+  },
+  "211": {
+    "id": 211,
+    "name": "Qwilfish",
+    "img": "imgs/shiny/211.gif"
+  },
+  "212": {
+    "id": 212,
+    "name": "Scizor",
+    "img": "imgs/shiny/212.gif"
+  },
+  "213": {
+    "id": 213,
+    "name": "Shuckle",
+    "img": "imgs/shiny/213.gif"
+  },
+  "214": {
+    "id": 214,
+    "name": "Heracross",
+    "img": "imgs/shiny/214.gif"
+  },
+  "215": {
+    "id": 215,
+    "name": "Sneasel",
+    "img": "imgs/shiny/215.gif"
+  },
+  "216": {
+    "id": 216,
+    "name": "Teddiursa",
+    "img": "imgs/shiny/216.gif"
+  },
+  "217": {
+    "id": 217,
+    "name": "Ursaring",
+    "img": "imgs/shiny/217.gif"
+  },
+  "218": {
+    "id": 218,
+    "name": "Slugma",
+    "img": "imgs/shiny/218.gif"
+  },
+  "219": {
+    "id": 219,
+    "name": "Magcargo",
+    "img": "imgs/shiny/219.gif"
+  },
+  "220": {
+    "id": 220,
+    "name": "Swinub",
+    "img": "imgs/shiny/220.gif"
+  },
+  "221": {
+    "id": 221,
+    "name": "Piloswine",
+    "img": "imgs/shiny/221.gif"
+  },
+  "222": {
+    "id": 222,
+    "name": "Corsola",
+    "img": "imgs/shiny/222.gif"
+  },
+  "223": {
+    "id": 223,
+    "name": "Remoraid",
+    "img": "imgs/shiny/223.gif"
+  },
+  "224": {
+    "id": 224,
+    "name": "Octillery",
+    "img": "imgs/shiny/224.gif"
+  },
+  "225": {
+    "id": 225,
+    "name": "Delibird",
+    "img": "imgs/shiny/225.gif"
+  },
+  "226": {
+    "id": 226,
+    "name": "Mantine",
+    "img": "imgs/shiny/226.gif"
+  },
+  "227": {
+    "id": 227,
+    "name": "Skarmory",
+    "img": "imgs/shiny/227.gif"
+  },
+  "228": {
+    "id": 228,
+    "name": "Houndour",
+    "img": "imgs/shiny/228.gif"
+  },
+  "229": {
+    "id": 229,
+    "name": "Houndoom",
+    "img": "imgs/shiny/229.gif"
+  },
+  "230": {
+    "id": 230,
+    "name": "Kingdra",
+    "img": "imgs/shiny/230.gif"
+  },
+  "231": {
+    "id": 231,
+    "name": "Phanpy",
+    "img": "imgs/shiny/231.gif"
+  },
+  "232": {
+    "id": 232,
+    "name": "Donphan",
+    "img": "imgs/shiny/232.gif"
+  },
+  "233": {
+    "id": 233,
+    "name": "Porygon2",
+    "img": "imgs/shiny/233.gif"
+  },
+  "234": {
+    "id": 234,
+    "name": "Stantler",
+    "img": "imgs/shiny/234.gif"
+  },
+  "235": {
+    "id": 235,
+    "name": "Smeargle",
+    "img": "imgs/shiny/235.gif"
+  },
+  "236": {
+    "id": 236,
+    "name": "Tyrogue",
+    "img": "imgs/shiny/236.gif"
+  },
+  "237": {
+    "id": 237,
+    "name": "Hitmontop",
+    "img": "imgs/shiny/237.gif"
+  },
+  "238": {
+    "id": 238,
+    "name": "Smoochum",
+    "img": "imgs/shiny/238.gif"
+  },
+  "239": {
+    "id": 239,
+    "name": "Elekid",
+    "img": "imgs/shiny/239.gif"
+  },
+  "240": {
+    "id": 240,
+    "name": "Magby",
+    "img": "imgs/shiny/240.gif"
+  },
+  "241": {
+    "id": 241,
+    "name": "Miltank",
+    "img": "imgs/shiny/241.gif"
+  },
+  "242": {
+    "id": 242,
+    "name": "Blissey",
+    "img": "imgs/shiny/242.gif"
+  },
+  "243": {
+    "id": 243,
+    "name": "Raikou",
+    "img": "imgs/shiny/243.gif"
+  },
+  "244": {
+    "id": 244,
+    "name": "Entei",
+    "img": "imgs/shiny/244.gif"
+  },
+  "245": {
+    "id": 245,
+    "name": "Suicune",
+    "img": "imgs/shiny/245.gif"
+  },
+  "246": {
+    "id": 246,
+    "name": "Larvitar",
+    "img": "imgs/shiny/246.gif"
+  },
+  "247": {
+    "id": 247,
+    "name": "Pupitar",
+    "img": "imgs/shiny/247.gif"
+  },
+  "248": {
+    "id": 248,
+    "name": "Tyranitar",
+    "img": "imgs/shiny/248.gif"
+  },
+  "249": {
+    "id": 249,
+    "name": "Lugia",
+    "img": "imgs/shiny/249.gif"
+  },
+  "250": {
+    "id": 250,
+    "name": "Ho-oh",
+    "img": "imgs/shiny/250.gif"
+  },
+  "251": {
+    "id": 251,
+    "name": "Celebi",
+    "img": "imgs/shiny/251.gif"
+  },
+  "252": {
+    "id": 252,
+    "name": "Treecko",
+    "img": "imgs/shiny/252.gif"
+  },
+  "253": {
+    "id": 253,
+    "name": "Grovyle",
+    "img": "imgs/shiny/253.gif"
+  },
+  "254": {
+    "id": 254,
+    "name": "Sceptile",
+    "img": "imgs/shiny/254.gif"
+  },
+  "255": {
+    "id": 255,
+    "name": "Torchic",
+    "img": "imgs/shiny/255.gif"
+  },
+  "256": {
+    "id": 256,
+    "name": "Combusken",
+    "img": "imgs/shiny/256.gif"
+  },
+  "257": {
+    "id": 257,
+    "name": "Blaziken",
+    "img": "imgs/shiny/257.gif"
+  },
+  "258": {
+    "id": 258,
+    "name": "Mudkip",
+    "img": "imgs/shiny/258.gif"
+  },
+  "259": {
+    "id": 259,
+    "name": "Marshtomp",
+    "img": "imgs/shiny/259.gif"
+  },
+  "260": {
+    "id": 260,
+    "name": "Swampert",
+    "img": "imgs/shiny/260.gif"
+  },
+  "261": {
+    "id": 261,
+    "name": "Poochyena",
+    "img": "imgs/shiny/261.gif"
+  },
+  "262": {
+    "id": 262,
+    "name": "Mightyena",
+    "img": "imgs/shiny/262.gif"
+  },
+  "263": {
+    "id": 263,
+    "name": "Zigzagoon",
+    "img": "imgs/shiny/263.gif"
+  },
+  "264": {
+    "id": 264,
+    "name": "Linoone",
+    "img": "imgs/shiny/264.gif"
+  },
+  "265": {
+    "id": 265,
+    "name": "Wurmple",
+    "img": "imgs/shiny/265.gif"
+  },
+  "266": {
+    "id": 266,
+    "name": "Silcoon",
+    "img": "imgs/shiny/266.gif"
+  },
+  "267": {
+    "id": 267,
+    "name": "Beautifly",
+    "img": "imgs/shiny/267.gif"
+  },
+  "268": {
+    "id": 268,
+    "name": "Cascoon",
+    "img": "imgs/shiny/268.gif"
+  },
+  "269": {
+    "id": 269,
+    "name": "Dustox",
+    "img": "imgs/shiny/269.gif"
+  },
+  "270": {
+    "id": 270,
+    "name": "Lotad",
+    "img": "imgs/shiny/270.gif"
+  },
+  "271": {
+    "id": 271,
+    "name": "Lombre",
+    "img": "imgs/shiny/271.gif"
+  },
+  "272": {
+    "id": 272,
+    "name": "Ludicolo",
+    "img": "imgs/shiny/272.gif"
+  },
+  "273": {
+    "id": 273,
+    "name": "Seedot",
+    "img": "imgs/shiny/273.gif"
+  },
+  "274": {
+    "id": 274,
+    "name": "Nuzleaf",
+    "img": "imgs/shiny/274.gif"
+  },
+  "275": {
+    "id": 275,
+    "name": "Shiftry",
+    "img": "imgs/shiny/275.gif"
+  },
+  "276": {
+    "id": 276,
+    "name": "Taillow",
+    "img": "imgs/shiny/276.gif"
+  },
+  "277": {
+    "id": 277,
+    "name": "Swellow",
+    "img": "imgs/shiny/277.gif"
+  },
+  "278": {
+    "id": 278,
+    "name": "Wingull",
+    "img": "imgs/shiny/278.gif"
+  },
+  "279": {
+    "id": 279,
+    "name": "Pelipper",
+    "img": "imgs/shiny/279.gif"
+  },
+  "280": {
+    "id": 280,
+    "name": "Ralts",
+    "img": "imgs/shiny/280.gif"
+  },
+  "281": {
+    "id": 281,
+    "name": "Kirlia",
+    "img": "imgs/shiny/281.gif"
+  },
+  "282": {
+    "id": 282,
+    "name": "Gardevoir",
+    "img": "imgs/shiny/282.gif"
+  },
+  "283": {
+    "id": 283,
+    "name": "Surskit",
+    "img": "imgs/shiny/283.gif"
+  },
+  "284": {
+    "id": 284,
+    "name": "Masquerain",
+    "img": "imgs/shiny/284.gif"
+  },
+  "285": {
+    "id": 285,
+    "name": "Shroomish",
+    "img": "imgs/shiny/285.gif"
+  },
+  "286": {
+    "id": 286,
+    "name": "Breloom",
+    "img": "imgs/shiny/286.gif"
+  },
+  "287": {
+    "id": 287,
+    "name": "Slakoth",
+    "img": "imgs/shiny/287.gif"
+  },
+  "288": {
+    "id": 288,
+    "name": "Vigoroth",
+    "img": "imgs/shiny/288.gif"
+  },
+  "289": {
+    "id": 289,
+    "name": "Slaking",
+    "img": "imgs/shiny/289.gif"
+  },
+  "290": {
+    "id": 290,
+    "name": "Nincada",
+    "img": "imgs/shiny/290.gif"
+  },
+  "291": {
+    "id": 291,
+    "name": "Ninjask",
+    "img": "imgs/shiny/291.gif"
+  },
+  "292": {
+    "id": 292,
+    "name": "Shedinja",
+    "img": "imgs/shiny/292.gif"
+  },
+  "293": {
+    "id": 293,
+    "name": "Whismur",
+    "img": "imgs/shiny/293.gif"
+  },
+  "294": {
+    "id": 294,
+    "name": "Loudred",
+    "img": "imgs/shiny/294.gif"
+  },
+  "295": {
+    "id": 295,
+    "name": "Exploud",
+    "img": "imgs/shiny/295.gif"
+  },
+  "296": {
+    "id": 296,
+    "name": "Makuhita",
+    "img": "imgs/shiny/296.gif"
+  },
+  "297": {
+    "id": 297,
+    "name": "Hariyama",
+    "img": "imgs/shiny/297.gif"
+  },
+  "298": {
+    "id": 298,
+    "name": "Azurill",
+    "img": "imgs/shiny/298.gif"
+  },
+  "299": {
+    "id": 299,
+    "name": "Nosepass",
+    "img": "imgs/shiny/299.gif"
+  },
+  "300": {
+    "id": 300,
+    "name": "Skitty",
+    "img": "imgs/shiny/300.gif"
+  },
+  "301": {
+    "id": 301,
+    "name": "Delcatty",
+    "img": "imgs/shiny/301.gif"
+  },
+  "302": {
+    "id": 302,
+    "name": "Sableye",
+    "img": "imgs/shiny/302.gif"
+  },
+  "303": {
+    "id": 303,
+    "name": "Mawile",
+    "img": "imgs/shiny/303.gif"
+  },
+  "304": {
+    "id": 304,
+    "name": "Aron",
+    "img": "imgs/shiny/304.gif"
+  },
+  "305": {
+    "id": 305,
+    "name": "Lairon",
+    "img": "imgs/shiny/305.gif"
+  },
+  "306": {
+    "id": 306,
+    "name": "Aggron",
+    "img": "imgs/shiny/306.gif"
+  },
+  "307": {
+    "id": 307,
+    "name": "Meditite",
+    "img": "imgs/shiny/307.gif"
+  },
+  "308": {
+    "id": 308,
+    "name": "Medicham",
+    "img": "imgs/shiny/308.gif"
+  },
+  "309": {
+    "id": 309,
+    "name": "Electrike",
+    "img": "imgs/shiny/309.gif"
+  },
+  "310": {
+    "id": 310,
+    "name": "Manectric",
+    "img": "imgs/shiny/310.gif"
+  },
+  "311": {
+    "id": 311,
+    "name": "Plusle",
+    "img": "imgs/shiny/311.gif"
+  },
+  "312": {
+    "id": 312,
+    "name": "Minun",
+    "img": "imgs/shiny/312.gif"
+  },
+  "313": {
+    "id": 313,
+    "name": "Volbeat",
+    "img": "imgs/shiny/313.gif"
+  },
+  "314": {
+    "id": 314,
+    "name": "Illumise",
+    "img": "imgs/shiny/314.gif"
+  },
+  "315": {
+    "id": 315,
+    "name": "Roselia",
+    "img": "imgs/shiny/315.gif"
+  },
+  "316": {
+    "id": 316,
+    "name": "Gulpin",
+    "img": "imgs/shiny/316.gif"
+  },
+  "317": {
+    "id": 317,
+    "name": "Swalot",
+    "img": "imgs/shiny/317.gif"
+  },
+  "318": {
+    "id": 318,
+    "name": "Carvanha",
+    "img": "imgs/shiny/318.gif"
+  },
+  "319": {
+    "id": 319,
+    "name": "Sharpedo",
+    "img": "imgs/shiny/319.gif"
+  },
+  "320": {
+    "id": 320,
+    "name": "Wailmer",
+    "img": "imgs/shiny/320.gif"
+  },
+  "321": {
+    "id": 321,
+    "name": "Wailord",
+    "img": "imgs/shiny/321.gif"
+  },
+  "322": {
+    "id": 322,
+    "name": "Numel",
+    "img": "imgs/shiny/322.gif"
+  },
+  "323": {
+    "id": 323,
+    "name": "Camerupt",
+    "img": "imgs/shiny/323.gif"
+  },
+  "324": {
+    "id": 324,
+    "name": "Torkoal",
+    "img": "imgs/shiny/324.gif"
+  },
+  "325": {
+    "id": 325,
+    "name": "Spoink",
+    "img": "imgs/shiny/325.gif"
+  },
+  "326": {
+    "id": 326,
+    "name": "Grumpig",
+    "img": "imgs/shiny/326.gif"
+  },
+  "327": {
+    "id": 327,
+    "name": "Spinda",
+    "img": "imgs/shiny/327.gif"
+  },
+  "328": {
+    "id": 328,
+    "name": "Trapinch",
+    "img": "imgs/shiny/328.gif"
+  },
+  "329": {
+    "id": 329,
+    "name": "Vibrava",
+    "img": "imgs/shiny/329.gif"
+  },
+  "330": {
+    "id": 330,
+    "name": "Flygon",
+    "img": "imgs/shiny/330.gif"
+  },
+  "331": {
+    "id": 331,
+    "name": "Cacnea",
+    "img": "imgs/shiny/331.gif"
+  },
+  "332": {
+    "id": 332,
+    "name": "Cacturne",
+    "img": "imgs/shiny/332.gif"
+  },
+  "333": {
+    "id": 333,
+    "name": "Swablu",
+    "img": "imgs/shiny/333.gif"
+  },
+  "334": {
+    "id": 334,
+    "name": "Altaria",
+    "img": "imgs/shiny/334.gif"
+  },
+  "335": {
+    "id": 335,
+    "name": "Zangoose",
+    "img": "imgs/shiny/335.gif"
+  },
+  "336": {
+    "id": 336,
+    "name": "Seviper",
+    "img": "imgs/shiny/336.gif"
+  },
+  "337": {
+    "id": 337,
+    "name": "Lunatone",
+    "img": "imgs/shiny/337.gif"
+  },
+  "338": {
+    "id": 338,
+    "name": "Solrock",
+    "img": "imgs/shiny/338.gif"
+  },
+  "339": {
+    "id": 339,
+    "name": "Barboach",
+    "img": "imgs/shiny/339.gif"
+  },
+  "340": {
+    "id": 340,
+    "name": "Whiscash",
+    "img": "imgs/shiny/340.gif"
+  },
+  "341": {
+    "id": 341,
+    "name": "Corphish",
+    "img": "imgs/shiny/341.gif"
+  },
+  "342": {
+    "id": 342,
+    "name": "Crawdaunt",
+    "img": "imgs/shiny/342.gif"
+  },
+  "343": {
+    "id": 343,
+    "name": "Baltoy",
+    "img": "imgs/shiny/343.gif"
+  },
+  "344": {
+    "id": 344,
+    "name": "Claydol",
+    "img": "imgs/shiny/344.gif"
+  },
+  "345": {
+    "id": 345,
+    "name": "Lileep",
+    "img": "imgs/shiny/345.gif"
+  },
+  "346": {
+    "id": 346,
+    "name": "Cradily",
+    "img": "imgs/shiny/346.gif"
+  },
+  "347": {
+    "id": 347,
+    "name": "Anorith",
+    "img": "imgs/shiny/347.gif"
+  },
+  "348": {
+    "id": 348,
+    "name": "Armaldo",
+    "img": "imgs/shiny/348.gif"
+  },
+  "349": {
+    "id": 349,
+    "name": "Feebas",
+    "img": "imgs/shiny/349.gif"
+  },
+  "350": {
+    "id": 350,
+    "name": "Milotic",
+    "img": "imgs/shiny/350.gif"
+  },
+  "351": {
+    "id": 351,
+    "name": "Castform",
+    "img": "imgs/shiny/351.gif"
+  },
+  "352": {
+    "id": 352,
+    "name": "Kecleon",
+    "img": "imgs/shiny/352.gif"
+  },
+  "353": {
+    "id": 353,
+    "name": "Shuppet",
+    "img": "imgs/shiny/353.gif"
+  },
+  "354": {
+    "id": 354,
+    "name": "Banette",
+    "img": "imgs/shiny/354.gif"
+  },
+  "355": {
+    "id": 355,
+    "name": "Duskull",
+    "img": "imgs/shiny/355.gif"
+  },
+  "356": {
+    "id": 356,
+    "name": "Dusclops",
+    "img": "imgs/shiny/356.gif"
+  },
+  "357": {
+    "id": 357,
+    "name": "Tropius",
+    "img": "imgs/shiny/357.gif"
+  },
+  "358": {
+    "id": 358,
+    "name": "Chimecho",
+    "img": "imgs/shiny/358.gif"
+  },
+  "359": {
+    "id": 359,
+    "name": "Absol",
+    "img": "imgs/shiny/359.gif"
+  },
+  "360": {
+    "id": 360,
+    "name": "Wynaut",
+    "img": "imgs/shiny/360.gif"
+  },
+  "361": {
+    "id": 361,
+    "name": "Snorunt",
+    "img": "imgs/shiny/361.gif"
+  },
+  "362": {
+    "id": 362,
+    "name": "Glalie",
+    "img": "imgs/shiny/362.gif"
+  },
+  "363": {
+    "id": 363,
+    "name": "Spheal",
+    "img": "imgs/shiny/363.gif"
+  },
+  "364": {
+    "id": 364,
+    "name": "Sealeo",
+    "img": "imgs/shiny/364.gif"
+  },
+  "365": {
+    "id": 365,
+    "name": "Walrein",
+    "img": "imgs/shiny/365.gif"
+  },
+  "366": {
+    "id": 366,
+    "name": "Clamperl",
+    "img": "imgs/shiny/366.gif"
+  },
+  "367": {
+    "id": 367,
+    "name": "Huntail",
+    "img": "imgs/shiny/367.gif"
+  },
+  "368": {
+    "id": 368,
+    "name": "Gorebyss",
+    "img": "imgs/shiny/368.gif"
+  },
+  "369": {
+    "id": 369,
+    "name": "Relicanth",
+    "img": "imgs/shiny/369.gif"
+  },
+  "370": {
+    "id": 370,
+    "name": "Luvdisc",
+    "img": "imgs/shiny/370.gif"
+  },
+  "371": {
+    "id": 371,
+    "name": "Bagon",
+    "img": "imgs/shiny/371.gif"
+  },
+  "372": {
+    "id": 372,
+    "name": "Shelgon",
+    "img": "imgs/shiny/372.gif"
+  },
+  "373": {
+    "id": 373,
+    "name": "Salamence",
+    "img": "imgs/shiny/373.gif"
+  },
+  "374": {
+    "id": 374,
+    "name": "Beldum",
+    "img": "imgs/shiny/374.gif"
+  },
+  "375": {
+    "id": 375,
+    "name": "Metang",
+    "img": "imgs/shiny/375.gif"
+  },
+  "376": {
+    "id": 376,
+    "name": "Metagross",
+    "img": "imgs/shiny/376.gif"
+  },
+  "377": {
+    "id": 377,
+    "name": "Regirock",
+    "img": "imgs/shiny/377.gif"
+  },
+  "378": {
+    "id": 378,
+    "name": "Regice",
+    "img": "imgs/shiny/378.gif"
+  },
+  "379": {
+    "id": 379,
+    "name": "Registeel",
+    "img": "imgs/shiny/379.gif"
+  },
+  "380": {
+    "id": 380,
+    "name": "Latias",
+    "img": "imgs/shiny/380.gif"
+  },
+  "381": {
+    "id": 381,
+    "name": "Latios",
+    "img": "imgs/shiny/381.gif"
+  },
+  "382": {
+    "id": 382,
+    "name": "Kyogre",
+    "img": "imgs/shiny/382.gif"
+  },
+  "383": {
+    "id": 383,
+    "name": "Groudon",
+    "img": "imgs/shiny/383.gif"
+  },
+  "384": {
+    "id": 384,
+    "name": "Rayquaza",
+    "img": "imgs/shiny/384.gif"
+  },
+  "385": {
+    "id": 385,
+    "name": "Jirachi",
+    "img": "imgs/shiny/385.gif"
+  },
+  "386": {
+    "id": 386,
+    "name": "Deoxys",
+    "img": "imgs/shiny/386.gif"
+  },
+  "387": {
+    "id": 387,
+    "name": "Turtwig",
+    "img": "imgs/shiny/387.gif"
+  },
+  "388": {
+    "id": 388,
+    "name": "Grotle",
+    "img": "imgs/shiny/388.gif"
+  },
+  "389": {
+    "id": 389,
+    "name": "Torterra",
+    "img": "imgs/shiny/389.gif"
+  },
+  "390": {
+    "id": 390,
+    "name": "Chimchar",
+    "img": "imgs/shiny/390.gif"
+  },
+  "391": {
+    "id": 391,
+    "name": "Monferno",
+    "img": "imgs/shiny/391.gif"
+  },
+  "392": {
+    "id": 392,
+    "name": "Infernape",
+    "img": "imgs/shiny/392.gif"
+  },
+  "393": {
+    "id": 393,
+    "name": "Piplup",
+    "img": "imgs/shiny/393.gif"
+  },
+  "394": {
+    "id": 394,
+    "name": "Prinplup",
+    "img": "imgs/shiny/394.gif"
+  },
+  "395": {
+    "id": 395,
+    "name": "Empoleon",
+    "img": "imgs/shiny/395.gif"
+  },
+  "396": {
+    "id": 396,
+    "name": "Starly",
+    "img": "imgs/shiny/396.gif"
+  },
+  "397": {
+    "id": 397,
+    "name": "Staravia",
+    "img": "imgs/shiny/397.gif"
+  },
+  "398": {
+    "id": 398,
+    "name": "Staraptor",
+    "img": "imgs/shiny/398.gif"
+  },
+  "399": {
+    "id": 399,
+    "name": "Bidoof",
+    "img": "imgs/shiny/399.gif"
+  },
+  "400": {
+    "id": 400,
+    "name": "Bibarel",
+    "img": "imgs/shiny/400.gif"
+  },
+  "401": {
+    "id": 401,
+    "name": "Kricketot",
+    "img": "imgs/shiny/401.gif"
+  },
+  "402": {
+    "id": 402,
+    "name": "Kricketune",
+    "img": "imgs/shiny/402.gif"
+  },
+  "403": {
+    "id": 403,
+    "name": "Shinx",
+    "img": "imgs/shiny/403.gif"
+  },
+  "404": {
+    "id": 404,
+    "name": "Luxio",
+    "img": "imgs/shiny/404.gif"
+  },
+  "405": {
+    "id": 405,
+    "name": "Luxray",
+    "img": "imgs/shiny/405.gif"
+  },
+  "406": {
+    "id": 406,
+    "name": "Budew",
+    "img": "imgs/shiny/406.gif"
+  },
+  "407": {
+    "id": 407,
+    "name": "Roserade",
+    "img": "imgs/shiny/407.gif"
+  },
+  "408": {
+    "id": 408,
+    "name": "Cranidos",
+    "img": "imgs/shiny/408.gif"
+  },
+  "409": {
+    "id": 409,
+    "name": "Rampardos",
+    "img": "imgs/shiny/409.gif"
+  },
+  "410": {
+    "id": 410,
+    "name": "Shieldon",
+    "img": "imgs/shiny/410.gif"
+  },
+  "411": {
+    "id": 411,
+    "name": "Bastiodon",
+    "img": "imgs/shiny/411.gif"
+  },
+  "412": {
+    "id": 412,
+    "name": "Burmy",
+    "img": "imgs/shiny/412.gif"
+  },
+  "413": {
+    "id": 413,
+    "name": "Wormadam",
+    "img": "imgs/shiny/413.gif"
+  },
+  "414": {
+    "id": 414,
+    "name": "Mothim",
+    "img": "imgs/shiny/414.gif"
+  },
+  "415": {
+    "id": 415,
+    "name": "Combee",
+    "img": "imgs/shiny/415.gif"
+  },
+  "416": {
+    "id": 416,
+    "name": "Vespiquen",
+    "img": "imgs/shiny/416.gif"
+  },
+  "417": {
+    "id": 417,
+    "name": "Pachirisu",
+    "img": "imgs/shiny/417.gif"
+  },
+  "418": {
+    "id": 418,
+    "name": "Buizel",
+    "img": "imgs/shiny/418.gif"
+  },
+  "419": {
+    "id": 419,
+    "name": "Floatzel",
+    "img": "imgs/shiny/419.gif"
+  },
+  "420": {
+    "id": 420,
+    "name": "Cherubi",
+    "img": "imgs/shiny/420.gif"
+  },
+  "421": {
+    "id": 421,
+    "name": "Cherrim",
+    "img": "imgs/shiny/421.gif"
+  },
+  "422": {
+    "id": 422,
+    "name": "Shellos",
+    "img": "imgs/shiny/422.gif"
+  },
+  "423": {
+    "id": 423,
+    "name": "Gastrodon",
+    "img": "imgs/shiny/423.gif"
+  },
+  "424": {
+    "id": 424,
+    "name": "Ambipom",
+    "img": "imgs/shiny/424.gif"
+  },
+  "425": {
+    "id": 425,
+    "name": "Drifloon",
+    "img": "imgs/shiny/425.gif"
+  },
+  "426": {
+    "id": 426,
+    "name": "Drifblim",
+    "img": "imgs/shiny/426.gif"
+  },
+  "427": {
+    "id": 427,
+    "name": "Buneary",
+    "img": "imgs/shiny/427.gif"
+  },
+  "428": {
+    "id": 428,
+    "name": "Lopunny",
+    "img": "imgs/shiny/428.gif"
+  },
+  "429": {
+    "id": 429,
+    "name": "Mismagius",
+    "img": "imgs/shiny/429.gif"
+  },
+  "430": {
+    "id": 430,
+    "name": "Honchkrow",
+    "img": "imgs/shiny/430.gif"
+  },
+  "431": {
+    "id": 431,
+    "name": "Glameow",
+    "img": "imgs/shiny/431.gif"
+  },
+  "432": {
+    "id": 432,
+    "name": "Purugly",
+    "img": "imgs/shiny/432.gif"
+  },
+  "433": {
+    "id": 433,
+    "name": "Chimecho",
+    "img": "imgs/shiny/433.gif"
+  },
+  "434": {
+    "id": 434,
+    "name": "Stunky",
+    "img": "imgs/shiny/434.gif"
+  },
+  "435": {
+    "id": 435,
+    "name": "Skuntank",
+    "img": "imgs/shiny/435.gif"
+  },
+  "436": {
+    "id": 436,
+    "name": "Bronzor",
+    "img": "imgs/shiny/436.gif"
+  },
+  "437": {
+    "id": 437,
+    "name": "Bronzong",
+    "img": "imgs/shiny/437.gif"
+  },
+  "438": {
+    "id": 438,
+    "name": "Bonsly",
+    "img": "imgs/shiny/438.gif"
+  },
+  "439": {
+    "id": 439,
+    "name": "Mime-jr",
+    "img": "imgs/shiny/439.gif"
+  },
+  "440": {
+    "id": 440,
+    "name": "Happiny",
+    "img": "imgs/shiny/440.gif"
+  },
+  "441": {
+    "id": 441,
+    "name": "Chatot",
+    "img": "imgs/shiny/441.gif"
+  },
+  "442": {
+    "id": 442,
+    "name": "Spiritomb",
+    "img": "imgs/shiny/442.gif"
+  },
+  "443": {
+    "id": 443,
+    "name": "Gible",
+    "img": "imgs/shiny/443.gif"
+  },
+  "444": {
+    "id": 444,
+    "name": "Gabite",
+    "img": "imgs/shiny/444.gif"
+  },
+  "445": {
+    "id": 445,
+    "name": "Garchomp",
+    "img": "imgs/shiny/445.gif"
+  },
+  "446": {
+    "id": 446,
+    "name": "Munchlax",
+    "img": "imgs/shiny/446.gif"
+  },
+  "447": {
+    "id": 447,
+    "name": "Riolu",
+    "img": "imgs/shiny/447.gif"
+  },
+  "448": {
+    "id": 448,
+    "name": "Lucario",
+    "img": "imgs/shiny/448.gif"
+  },
+  "449": {
+    "id": 449,
+    "name": "Hippopotas",
+    "img": "imgs/shiny/449.gif"
+  },
+  "450": {
+    "id": 450,
+    "name": "Hippowdon",
+    "img": "imgs/shiny/450.gif"
+  },
+  "451": {
+    "id": 451,
+    "name": "Skorupi",
+    "img": "imgs/shiny/451.gif"
+  },
+  "452": {
+    "id": 452,
+    "name": "Drapion",
+    "img": "imgs/shiny/452.gif"
+  },
+  "453": {
+    "id": 453,
+    "name": "Croagunk",
+    "img": "imgs/shiny/453.gif"
+  },
+  "454": {
+    "id": 454,
+    "name": "Toxicroak",
+    "img": "imgs/shiny/454.gif"
+  },
+  "455": {
+    "id": 455,
+    "name": "Carnivine",
+    "img": "imgs/shiny/455.gif"
+  },
+  "456": {
+    "id": 456,
+    "name": "Finneon",
+    "img": "imgs/shiny/456.gif"
+  },
+  "457": {
+    "id": 457,
+    "name": "Lumineon",
+    "img": "imgs/shiny/457.gif"
+  },
+  "458": {
+    "id": 458,
+    "name": "Mantyke",
+    "img": "imgs/shiny/458.gif"
+  },
+  "459": {
+    "id": 459,
+    "name": "Snover",
+    "img": "imgs/shiny/459.gif"
+  },
+  "460": {
+    "id": 460,
+    "name": "Abomasnow",
+    "img": "imgs/shiny/460.gif"
+  },
+  "461": {
+    "id": 461,
+    "name": "Weavile",
+    "img": "imgs/shiny/461.gif"
+  },
+  "462": {
+    "id": 462,
+    "name": "Magnezone",
+    "img": "imgs/shiny/462.gif"
+  },
+  "463": {
+    "id": 463,
+    "name": "Lickilicky",
+    "img": "imgs/shiny/463.gif"
+  },
+  "464": {
+    "id": 464,
+    "name": "Rhyperior",
+    "img": "imgs/shiny/464.gif"
+  },
+  "465": {
+    "id": 465,
+    "name": "Tangrowth",
+    "img": "imgs/shiny/465.gif"
+  },
+  "466": {
+    "id": 466,
+    "name": "Electivire",
+    "img": "imgs/shiny/466.gif"
+  },
+  "467": {
+    "id": 467,
+    "name": "Magmortar",
+    "img": "imgs/shiny/467.gif"
+  },
+  "468": {
+    "id": 468,
+    "name": "Togekiss",
+    "img": "imgs/shiny/468.gif"
+  },
+  "469": {
+    "id": 469,
+    "name": "Yanmega",
+    "img": "imgs/shiny/469.gif"
+  },
+  "470": {
+    "id": 470,
+    "name": "Leafeon",
+    "img": "imgs/shiny/470.gif"
+  },
+  "471": {
+    "id": 471,
+    "name": "Glaceon",
+    "img": "imgs/shiny/471.gif"
+  },
+  "472": {
+    "id": 472,
+    "name": "Gliscor",
+    "img": "imgs/shiny/472.gif"
+  },
+  "473": {
+    "id": 473,
+    "name": "Mamoswine",
+    "img": "imgs/shiny/473.gif"
+  },
+  "474": {
+    "id": 474,
+    "name": "Porygon-z",
+    "img": "imgs/shiny/474.gif"
+  },
+  "475": {
+    "id": 475,
+    "name": "Gallade",
+    "img": "imgs/shiny/475.gif"
+  },
+  "476": {
+    "id": 476,
+    "name": "Probopass",
+    "img": "imgs/shiny/476.gif"
+  },
+  "477": {
+    "id": 477,
+    "name": "Dusknoir",
+    "img": "imgs/shiny/477.gif"
+  },
+  "478": {
+    "id": 478,
+    "name": "Froslass",
+    "img": "imgs/shiny/478.gif"
+  },
+  "479": {
+    "id": 479,
+    "name": "Rotom",
+    "img": "imgs/shiny/479.gif"
+  },
+  "480": {
+    "id": 480,
+    "name": "Uxie",
+    "img": "imgs/shiny/480.gif"
+  },
+  "481": {
+    "id": 481,
+    "name": "Mesprit",
+    "img": "imgs/shiny/481.gif"
+  },
+  "482": {
+    "id": 482,
+    "name": "Azelf",
+    "img": "imgs/shiny/482.gif"
+  },
+  "483": {
+    "id": 483,
+    "name": "Dialga",
+    "img": "imgs/shiny/483.gif"
+  },
+  "484": {
+    "id": 484,
+    "name": "Palkia",
+    "img": "imgs/shiny/484.gif"
+  },
+  "485": {
+    "id": 485,
+    "name": "Heatran",
+    "img": "imgs/shiny/485.gif"
+  },
+  "486": {
+    "id": 486,
+    "name": "Regigigas",
+    "img": "imgs/shiny/486.gif"
+  },
+  "487": {
+    "id": 487,
+    "name": "Giratina",
+    "img": "imgs/shiny/487.gif"
+  },
+  "488": {
+    "id": 488,
+    "name": "Cresselia",
+    "img": "imgs/shiny/488.gif"
+  },
+  "489": {
+    "id": 489,
+    "name": "Phione",
+    "img": "imgs/shiny/489.gif"
+  },
+  "490": {
+    "id": 490,
+    "name": "Manaphy",
+    "img": "imgs/shiny/490.gif"
+  },
+  "491": {
+    "id": 491,
+    "name": "Darkrai",
+    "img": "imgs/shiny/491.gif"
+  },
+  "492": {
+    "id": 492,
+    "name": "Shaymin",
+    "img": "imgs/shiny/492.gif"
+  },
+  "493": {
+    "id": 493,
+    "name": "Arceus",
+    "img": "imgs/shiny/493.gif"
+  },
+  "494": {
+    "id": 494,
+    "name": "Victini",
+    "img": "imgs/shiny/494.gif"
+  },
+  "495": {
+    "id": 495,
+    "name": "Snivy",
+    "img": "imgs/shiny/495.gif"
+  },
+  "496": {
+    "id": 496,
+    "name": "Servine",
+    "img": "imgs/shiny/496.gif"
+  },
+  "497": {
+    "id": 497,
+    "name": "Serperior",
+    "img": "imgs/shiny/497.gif"
+  },
+  "498": {
+    "id": 498,
+    "name": "Tepig",
+    "img": "imgs/shiny/498.gif"
+  },
+  "499": {
+    "id": 499,
+    "name": "Pignite",
+    "img": "imgs/shiny/499.gif"
+  },
+  "500": {
+    "id": 500,
+    "name": "Emboar",
+    "img": "imgs/shiny/500.gif"
+  },
+  "501": {
+    "id": 501,
+    "name": "Oshawott",
+    "img": "imgs/shiny/501.gif"
+  },
+  "502": {
+    "id": 502,
+    "name": "Dewott",
+    "img": "imgs/shiny/502.gif"
+  },
+  "503": {
+    "id": 503,
+    "name": "Samurott",
+    "img": "imgs/shiny/503.gif"
+  },
+  "504": {
+    "id": 504,
+    "name": "Patrat",
+    "img": "imgs/shiny/504.gif"
+  },
+  "505": {
+    "id": 505,
+    "name": "Watchog",
+    "img": "imgs/shiny/505.gif"
+  },
+  "506": {
+    "id": 506,
+    "name": "Lillipup",
+    "img": "imgs/shiny/506.gif"
+  },
+  "507": {
+    "id": 507,
+    "name": "Herdier",
+    "img": "imgs/shiny/507.gif"
+  },
+  "508": {
+    "id": 508,
+    "name": "Stoutland",
+    "img": "imgs/shiny/508.gif"
+  },
+  "509": {
+    "id": 509,
+    "name": "Purrloin",
+    "img": "imgs/shiny/509.gif"
+  },
+  "510": {
+    "id": 510,
+    "name": "Liepard",
+    "img": "imgs/shiny/510.gif"
+  },
+  "511": {
+    "id": 511,
+    "name": "Pansage",
+    "img": "imgs/shiny/511.gif"
+  },
+  "512": {
+    "id": 512,
+    "name": "Simisage",
+    "img": "imgs/shiny/512.gif"
+  },
+  "513": {
+    "id": 513,
+    "name": "Pansear",
+    "img": "imgs/shiny/513.gif"
+  },
+  "514": {
+    "id": 514,
+    "name": "Simisear",
+    "img": "imgs/shiny/514.gif"
+  },
+  "515": {
+    "id": 515,
+    "name": "Panpour",
+    "img": "imgs/shiny/515.gif"
+  },
+  "516": {
+    "id": 516,
+    "name": "Simipour",
+    "img": "imgs/shiny/516.gif"
+  },
+  "517": {
+    "id": 517,
+    "name": "Munna",
+    "img": "imgs/shiny/517.gif"
+  },
+  "518": {
+    "id": 518,
+    "name": "Musharna",
+    "img": "imgs/shiny/518.gif"
+  },
+  "519": {
+    "id": 519,
+    "name": "Pidove",
+    "img": "imgs/shiny/519.gif"
+  },
+  "520": {
+    "id": 520,
+    "name": "Tranquill",
+    "img": "imgs/shiny/520.gif"
+  },
+  "521": {
+    "id": 521,
+    "name": "Unfezant",
+    "img": "imgs/shiny/521.gif"
+  },
+  "522": {
+    "id": 522,
+    "name": "Blitzle",
+    "img": "imgs/shiny/522.gif"
+  },
+  "523": {
+    "id": 523,
+    "name": "Zebstrika",
+    "img": "imgs/shiny/523.gif"
+  },
+  "524": {
+    "id": 524,
+    "name": "Roggenrola",
+    "img": "imgs/shiny/524.gif"
+  },
+  "525": {
+    "id": 525,
+    "name": "Boldore",
+    "img": "imgs/shiny/525.gif"
+  },
+  "526": {
+    "id": 526,
+    "name": "Gigalith",
+    "img": "imgs/shiny/526.gif"
+  },
+  "527": {
+    "id": 527,
+    "name": "Woobat",
+    "img": "imgs/shiny/527.gif"
+  },
+  "528": {
+    "id": 528,
+    "name": "Swoobat",
+    "img": "imgs/shiny/528.gif"
+  },
+  "529": {
+    "id": 529,
+    "name": "Drilbur",
+    "img": "imgs/shiny/529.gif"
+  },
+  "530": {
+    "id": 530,
+    "name": "Excadrill",
+    "img": "imgs/shiny/530.gif"
+  },
+  "531": {
+    "id": 531,
+    "name": "Audino",
+    "img": "imgs/shiny/531.gif"
+  },
+  "532": {
+    "id": 532,
+    "name": "Timburr",
+    "img": "imgs/shiny/532.gif"
+  },
+  "533": {
+    "id": 533,
+    "name": "Gurdurr",
+    "img": "imgs/shiny/533.gif"
+  },
+  "534": {
+    "id": 534,
+    "name": "Conkeldurr",
+    "img": "imgs/shiny/534.gif"
+  },
+  "535": {
+    "id": 535,
+    "name": "Tympole",
+    "img": "imgs/shiny/535.gif"
+  },
+  "536": {
+    "id": 536,
+    "name": "Palpitoad",
+    "img": "imgs/shiny/536.gif"
+  },
+  "537": {
+    "id": 537,
+    "name": "Seismitoad",
+    "img": "imgs/shiny/537.gif"
+  },
+  "538": {
+    "id": 538,
+    "name": "Throh",
+    "img": "imgs/shiny/538.gif"
+  },
+  "539": {
+    "id": 539,
+    "name": "Sawk",
+    "img": "imgs/shiny/539.gif"
+  },
+  "540": {
+    "id": 540,
+    "name": "Sewaddle",
+    "img": "imgs/shiny/540.gif"
+  },
+  "541": {
+    "id": 541,
+    "name": "Swadloon",
+    "img": "imgs/shiny/541.gif"
+  },
+  "542": {
+    "id": 542,
+    "name": "Leavanny",
+    "img": "imgs/shiny/542.gif"
+  },
+  "543": {
+    "id": 543,
+    "name": "Venipede",
+    "img": "imgs/shiny/543.gif"
+  },
+  "544": {
+    "id": 544,
+    "name": "Whirlipede",
+    "img": "imgs/shiny/544.gif"
+  },
+  "545": {
+    "id": 545,
+    "name": "Scolipede",
+    "img": "imgs/shiny/545.gif"
+  },
+  "546": {
+    "id": 546,
+    "name": "Cottonee",
+    "img": "imgs/shiny/546.gif"
+  },
+  "547": {
+    "id": 547,
+    "name": "Whimsicott",
+    "img": "imgs/shiny/547.gif"
+  },
+  "548": {
+    "id": 548,
+    "name": "Petilil",
+    "img": "imgs/shiny/548.gif"
+  },
+  "549": {
+    "id": 549,
+    "name": "Lilligant",
+    "img": "imgs/shiny/549.gif"
+  },
+  "550": {
+    "id": 550,
+    "name": "Basculin",
+    "img": "imgs/shiny/550.gif"
+  },
+  "551": {
+    "id": 551,
+    "name": "Sandile",
+    "img": "imgs/shiny/551.gif"
+  },
+  "552": {
+    "id": 552,
+    "name": "Krokorok",
+    "img": "imgs/shiny/552.gif"
+  },
+  "553": {
+    "id": 553,
+    "name": "Krookodile",
+    "img": "imgs/shiny/553.gif"
+  },
+  "554": {
+    "id": 554,
+    "name": "Darumaka",
+    "img": "imgs/shiny/554.gif"
+  },
+  "555": {
+    "id": 555,
+    "name": "Darmanitan",
+    "img": "imgs/shiny/555.gif"
+  },
+  "556": {
+    "id": 556,
+    "name": "Maractus",
+    "img": "imgs/shiny/556.gif"
+  },
+  "557": {
+    "id": 557,
+    "name": "Dwebble",
+    "img": "imgs/shiny/557.gif"
+  },
+  "558": {
+    "id": 558,
+    "name": "Crustle",
+    "img": "imgs/shiny/558.gif"
+  },
+  "559": {
+    "id": 559,
+    "name": "Scraggy",
+    "img": "imgs/shiny/559.gif"
+  },
+  "560": {
+    "id": 560,
+    "name": "Scrafty",
+    "img": "imgs/shiny/560.gif"
+  },
+  "561": {
+    "id": 561,
+    "name": "Sigilyph",
+    "img": "imgs/shiny/561.gif"
+  },
+  "562": {
+    "id": 562,
+    "name": "Yamask",
+    "img": "imgs/shiny/562.gif"
+  },
+  "563": {
+    "id": 563,
+    "name": "Cofagrigus",
+    "img": "imgs/shiny/563.gif"
+  },
+  "564": {
+    "id": 564,
+    "name": "Tirtouga",
+    "img": "imgs/shiny/564.gif"
+  },
+  "565": {
+    "id": 565,
+    "name": "Carracosta",
+    "img": "imgs/shiny/565.gif"
+  },
+  "566": {
+    "id": 566,
+    "name": "Archen",
+    "img": "imgs/shiny/566.gif"
+  },
+  "567": {
+    "id": 567,
+    "name": "Archeops",
+    "img": "imgs/shiny/567.gif"
+  },
+  "568": {
+    "id": 568,
+    "name": "Trubbish",
+    "img": "imgs/shiny/568.gif"
+  },
+  "569": {
+    "id": 569,
+    "name": "Garbodor",
+    "img": "imgs/shiny/569.gif"
+  },
+  "570": {
+    "id": 570,
+    "name": "Zorua",
+    "img": "imgs/shiny/570.gif"
+  },
+  "571": {
+    "id": 571,
+    "name": "Zoroark",
+    "img": "imgs/shiny/571.gif"
+  },
+  "572": {
+    "id": 572,
+    "name": "Minccino",
+    "img": "imgs/shiny/572.gif"
+  },
+  "573": {
+    "id": 573,
+    "name": "Cinccino",
+    "img": "imgs/shiny/573.gif"
+  },
+  "574": {
+    "id": 574,
+    "name": "Gothita",
+    "img": "imgs/shiny/574.gif"
+  },
+  "575": {
+    "id": 575,
+    "name": "Gothorita",
+    "img": "imgs/shiny/575.gif"
+  },
+  "576": {
+    "id": 576,
+    "name": "Gothitelle",
+    "img": "imgs/shiny/576.gif"
+  },
+  "577": {
+    "id": 577,
+    "name": "Solosis",
+    "img": "imgs/shiny/577.gif"
+  },
+  "578": {
+    "id": 578,
+    "name": "Duosion",
+    "img": "imgs/shiny/578.gif"
+  },
+  "579": {
+    "id": 579,
+    "name": "Reuniclus",
+    "img": "imgs/shiny/579.gif"
+  },
+  "580": {
+    "id": 580,
+    "name": "Ducklett",
+    "img": "imgs/shiny/580.gif"
+  },
+  "581": {
+    "id": 581,
+    "name": "Swanna",
+    "img": "imgs/shiny/581.gif"
+  },
+  "582": {
+    "id": 582,
+    "name": "Vanillite",
+    "img": "imgs/shiny/582.gif"
+  },
+  "583": {
+    "id": 583,
+    "name": "Vanillish",
+    "img": "imgs/shiny/583.gif"
+  },
+  "584": {
+    "id": 584,
+    "name": "Vanilluxe",
+    "img": "imgs/shiny/584.gif"
+  },
+  "585": {
+    "id": 585,
+    "name": "Deerling",
+    "img": "imgs/shiny/585.gif"
+  },
+  "586": {
+    "id": 586,
+    "name": "Sawsbuck",
+    "img": "imgs/shiny/586.gif"
+  },
+  "587": {
+    "id": 587,
+    "name": "Emolga",
+    "img": "imgs/shiny/587.gif"
+  },
+  "588": {
+    "id": 588,
+    "name": "Karrablast",
+    "img": "imgs/shiny/588.gif"
+  },
+  "589": {
+    "id": 589,
+    "name": "Escavalier",
+    "img": "imgs/shiny/589.gif"
+  },
+  "590": {
+    "id": 590,
+    "name": "Foongus",
+    "img": "imgs/shiny/590.gif"
+  },
+  "591": {
+    "id": 591,
+    "name": "Amoonguss",
+    "img": "imgs/shiny/591.gif"
+  },
+  "592": {
+    "id": 592,
+    "name": "Frillish",
+    "img": "imgs/shiny/592.gif"
+  },
+  "593": {
+    "id": 593,
+    "name": "Jellicent",
+    "img": "imgs/shiny/593.gif"
+  },
+  "594": {
+    "id": 594,
+    "name": "Alomomola",
+    "img": "imgs/shiny/594.gif"
+  },
+  "595": {
+    "id": 595,
+    "name": "Joltik",
+    "img": "imgs/shiny/595.gif"
+  },
+  "596": {
+    "id": 596,
+    "name": "Galvantula",
+    "img": "imgs/shiny/596.gif"
+  },
+  "597": {
+    "id": 597,
+    "name": "Ferroseed",
+    "img": "imgs/shiny/597.gif"
+  },
+  "598": {
+    "id": 598,
+    "name": "Ferrothorn",
+    "img": "imgs/shiny/598.gif"
+  },
+  "599": {
+    "id": 599,
+    "name": "Klink",
+    "img": "imgs/shiny/599.gif"
+  },
+  "600": {
+    "id": 600,
+    "name": "Klang",
+    "img": "imgs/shiny/600.gif"
+  },
+  "601": {
+    "id": 601,
+    "name": "Klinklang",
+    "img": "imgs/shiny/601.gif"
+  },
+  "602": {
+    "id": 602,
+    "name": "Tynamo",
+    "img": "imgs/shiny/602.gif"
+  },
+  "603": {
+    "id": 603,
+    "name": "Eelektrik",
+    "img": "imgs/shiny/603.gif"
+  },
+  "604": {
+    "id": 604,
+    "name": "Eelektross",
+    "img": "imgs/shiny/604.gif"
+  },
+  "605": {
+    "id": 605,
+    "name": "Elgyem",
+    "img": "imgs/shiny/605.gif"
+  },
+  "606": {
+    "id": 606,
+    "name": "Beheeyem",
+    "img": "imgs/shiny/606.gif"
+  },
+  "607": {
+    "id": 607,
+    "name": "Litwick",
+    "img": "imgs/shiny/607.gif"
+  },
+  "608": {
+    "id": 608,
+    "name": "Lampent",
+    "img": "imgs/shiny/608.gif"
+  },
+  "609": {
+    "id": 609,
+    "name": "Chandelure",
+    "img": "imgs/shiny/609.gif"
+  },
+  "610": {
+    "id": 610,
+    "name": "Axew",
+    "img": "imgs/shiny/610.gif"
+  },
+  "611": {
+    "id": 611,
+    "name": "Fraxure",
+    "img": "imgs/shiny/611.gif"
+  },
+  "612": {
+    "id": 612,
+    "name": "Haxorus",
+    "img": "imgs/shiny/612.gif"
+  },
+  "613": {
+    "id": 613,
+    "name": "Cubchoo",
+    "img": "imgs/shiny/613.gif"
+  },
+  "614": {
+    "id": 614,
+    "name": "Beartic",
+    "img": "imgs/shiny/614.gif"
+  },
+  "615": {
+    "id": 615,
+    "name": "Cryogonal",
+    "img": "imgs/shiny/615.gif"
+  },
+  "616": {
+    "id": 616,
+    "name": "Shelmet",
+    "img": "imgs/shiny/616.gif"
+  },
+  "617": {
+    "id": 617,
+    "name": "Accelgor",
+    "img": "imgs/shiny/617.gif"
+  },
+  "618": {
+    "id": 618,
+    "name": "Stunfisk",
+    "img": "imgs/shiny/618.gif"
+  },
+  "619": {
+    "id": 619,
+    "name": "Mienfoo",
+    "img": "imgs/shiny/619.gif"
+  },
+  "620": {
+    "id": 620,
+    "name": "Mienshao",
+    "img": "imgs/shiny/620.gif"
+  },
+  "621": {
+    "id": 621,
+    "name": "Druddigon",
+    "img": "imgs/shiny/621.gif"
+  },
+  "622": {
+    "id": 622,
+    "name": "Golett",
+    "img": "imgs/shiny/622.gif"
+  },
+  "623": {
+    "id": 623,
+    "name": "Golurk",
+    "img": "imgs/shiny/623.gif"
+  },
+  "624": {
+    "id": 624,
+    "name": "Pawniard",
+    "img": "imgs/shiny/624.gif"
+  },
+  "625": {
+    "id": 625,
+    "name": "Bisharp",
+    "img": "imgs/shiny/625.gif"
+  },
+  "626": {
+    "id": 626,
+    "name": "Bouffalant",
+    "img": "imgs/shiny/626.gif"
+  },
+  "627": {
+    "id": 627,
+    "name": "Rufflet",
+    "img": "imgs/shiny/627.gif"
+  },
+  "628": {
+    "id": 628,
+    "name": "Braviary",
+    "img": "imgs/shiny/628.gif"
+  },
+  "629": {
+    "id": 629,
+    "name": "Vullaby",
+    "img": "imgs/shiny/629.gif"
+  },
+  "630": {
+    "id": 630,
+    "name": "Mandibuzz",
+    "img": "imgs/shiny/630.gif"
+  },
+  "631": {
+    "id": 631,
+    "name": "Heatmor",
+    "img": "imgs/shiny/631.gif"
+  },
+  "632": {
+    "id": 632,
+    "name": "Durant",
+    "img": "imgs/shiny/632.gif"
+  },
+  "633": {
+    "id": 633,
+    "name": "Deino",
+    "img": "imgs/shiny/633.gif"
+  },
+  "634": {
+    "id": 634,
+    "name": "Zweilous",
+    "img": "imgs/shiny/634.gif"
+  },
+  "635": {
+    "id": 635,
+    "name": "Hydreigon",
+    "img": "imgs/shiny/635.gif"
+  },
+  "636": {
+    "id": 636,
+    "name": "Larvesta",
+    "img": "imgs/shiny/636.gif"
+  },
+  "637": {
+    "id": 637,
+    "name": "Volcarona",
+    "img": "imgs/shiny/637.gif"
+  },
+  "638": {
+    "id": 638,
+    "name": "Cobalion",
+    "img": "imgs/shiny/638.gif"
+  },
+  "639": {
+    "id": 639,
+    "name": "Terrakion",
+    "img": "imgs/shiny/639.gif"
+  },
+  "640": {
+    "id": 640,
+    "name": "Virizion",
+    "img": "imgs/shiny/640.gif"
+  },
+  "641": {
+    "id": 641,
+    "name": "Tornadus",
+    "img": "imgs/shiny/641.gif"
+  },
+  "642": {
+    "id": 642,
+    "name": "Thundurus",
+    "img": "imgs/shiny/642.gif"
+  },
+  "643": {
+    "id": 643,
+    "name": "Reshiram",
+    "img": "imgs/shiny/643.gif"
+  },
+  "644": {
+    "id": 644,
+    "name": "Zekrom",
+    "img": "imgs/shiny/644.gif"
+  },
+  "645": {
+    "id": 645,
+    "name": "Landorus",
+    "img": "imgs/shiny/645.gif"
+  },
+  "646": {
+    "id": 646,
+    "name": "Kyurem",
+    "img": "imgs/shiny/646.gif"
+  },
+  "647": {
+    "id": 647,
+    "name": "Keldeo",
+    "img": "imgs/shiny/647.gif"
+  },
+  "648": {
+    "id": 648,
+    "name": "Meloetta",
+    "img": "imgs/shiny/648.gif"
+  },
+  "649": {
+    "id": 649,
+    "name": "Genesect",
+    "img": "imgs/shiny/649.gif"
+  }
+}

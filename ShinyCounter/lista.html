@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio - Funções de Lista</title>
+</head>
+<body>
+
+<h2>Desafio: Funções de Lista (Sem métodos nativos)</h2>
+<p>Abra o console do navegador para ver os testes.</p>
+
+<script>
+// 1) adicionarNoFinal
+function adicionarNoFinal(lista, elemento) {
+    let novaLista = [];
+
+    for (let i = 0; i < lista.length; i++) {
+        novaLista[i] = lista[i];
+    }
+
+    novaLista[novaLista.length] = elemento;
+    return novaLista;
+}
+
+// 2) removerDoFinal
+function removerDoFinal(lista) {
+    let novaLista = [];
+
+    if (lista.length === 0) {
+        return novaLista;
+    }
+
+    for (let i = 0; i < lista.length - 1; i++) {
+        novaLista[i] = lista[i];
+    }
+
+    return novaLista;
+}
+
+// 3) removerDoInicio
+function removerDoInicio(lista) {
+    let novaLista = [];
+
+    if (lista.length === 0) {
+        return novaLista;
+    }
+
+    for (let i = 1; i < lista.length; i++) {
+        novaLista[i - 1] = lista[i];
+    }
+
+    return novaLista;
+}
+
+// 4) adicionarNoInicio
+function adicionarNoInicio(lista, elemento) {
+    let novaLista = [];
+
+    novaLista[0] = elemento;
+
+    for (let i = 0; i < lista.length; i++) {
+        novaLista[i + 1] = lista[i];
+    }
+
+    return novaLista;
+}
+
+// 5) alterarLista
+function alterarLista(lista, indice, quantidade, novoElemento) {
+    let novaLista = [];
+
+    if (indice > lista.length) {
+        for (let i = 0; i < lista.length; i++) {
+            novaLista[i] = lista[i];
+        }
+
+        if (novoElemento !== undefined) {
+            novaLista[novaLista.length] = novoElemento;
+        }
+
+        return novaLista;
+    }
+
+    let novoIndex = 0;
+
+    for (let i = 0; i < lista.length; i++) {
+        if (i >= indice && i < indice + quantidade) {
+            continue;
+        }
+
+        novaLista[novoIndex] = lista[i];
+        novoIndex++;
+    }
+
+    if (novoElemento !== undefined) {
+        let final = [];
+
+        for (let i = 0; i < indice; i++) {
+            final[i] = novaLista[i];
+        }
+
+        final[indice] = novoElemento;
+
+        for (let i = indice; i < novaLista.length; i++) {
+            final[i + 1] = novaLista[i];
+        }
+
+        return final;
+    }
+
+    return novaLista;
+}
+
+// TESTES
+let lista = [1, 2, 3];
+
+console.log("Original:", lista);
+console.log("Adicionar no final:", adicionarNoFinal(lista, 4));
+console.log("Remover do final:", removerDoFinal(lista));
+console.log("Remover do início:", removerDoInicio(lista));
+console.log("Adicionar no início:", adicionarNoInicio(lista, 0));
+console.log("Alterar lista:", alterarLista(lista, 1, 1, 99));
+
+</script>
+
+</body>
+</html>

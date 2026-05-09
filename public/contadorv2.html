@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shiny Calculator</title>
+</head>
+
+<body>
+
+    <br>
+    
+<select id="select_pokemon" size="5"></select>
+
+    <select id="select">
+        <option value="1">gen1</option>
+        <option value="2">gen2</option>
+        <option value="3">gen3</option>
+        <option value="4">gen4</option>
+        <option value="5">gen5</option>
+        <option value="6">gen6</option>
+        <option value="7">gen7</option>
+    </select>
+
+    <select id="select_metodos">
+        <option value="random">Random / SR</option>
+        <option value="masuda">Masuda Method</option>
+        <option value="dexnav">Dex Nav</option>
+        <option value="friend">Friend Safari</option>
+        <option value="radar">Radar Chaining</option>
+        <option value="fishing">Fishing Chain</option>
+        <option value="sosbattles">S.O.S Battles</option>
+    </select>
+
+    <h1>
+        <input id="counter" type="number" value="0" min="0">
+    </h1>
+
+    <div id="prob"></div>
+    <div id="reset"></div>
+    <div id="shiny_por_reset"></div>
+
+    <br>
+
+    <div>
+        <img id="pokemon_img" width="75">
+    </div>
+
+    <br>
+
+    <button id="btnAdd"> + 1 </button>
+    <button id="btnSub"> - 1 </button>
+
+    
+
+</body>
+
+<script>
+let odds = 0;
+let odds_atual = 0;
+let ppr = 0;
+let uns = 0;
+let contador = 0;
+
+// pegar elementos (IMPORTANTE agora que está separado)
+
+// métodos
+let metodos = {
+    random: (chain, odds_base) => odds_base,
+
+    masuda: (_, __, geracao) => {
+        if (geracao <= 4) return 1638;
+        if (geracao === 5) return 1365;
+        return 683;
+    },
+
+    friend: (_, __, geracao) => {
+        if (geracao === 6) return 512;
+        return odds;
+    },
+
+    radar: (chain, odds_base) => {
+        return odds_base - (chain / 40) * (odds_base - 200);
+    },
+
+    fishing: (chain, odds_base) => {
+        return odds_base - (chain / 40) * (odds_base - 200);
+    },
+
+    sosbattles: (chain, odds_base) => {
+        if (chain < 10) return odds_base;
+        if (chain < 20) return odds_base / 1.5;
+        if (chain < 30) return odds_base / 2;
+        if (chain < 70) return odds_base / 3;
+        return odds_base / 4;
+    },
+
+    dexnav: (chain, odds_base) => {
+        let level = contador;
+        let bonus = Math.min(level / 1000, 0.4);
+        return odds_base * (1 - bonus);
+    }
+};
+
+// função principal
+function atualizarTudo() {
+    contador = Number(counter.value);
+
+    let geracao = Number(select.value);
+    let metodo = select_metodos.value;
+
+    let chain = Math.max(0, Math.min(contador, 40));
+
+    odds_atual = metodos[metodo](chain, odds, geracao);
+
+    // PPR
+    ppr = ((1 - (1 - (1 / odds_atual)) ** contador) * 100).toFixed(2);
+
+    // UNS (90%)
+    let alvo = 0.9;
+    let total = Math.log(1 - alvo) / Math.log(1 - (1 / odds_atual));
+    uns = Math.max(Math.ceil(total - contador), 0);
+
+    // UI
+    prob.innerHTML = `1 / ${Math.round(odds_atual)}`;
+    shiny_por_reset.innerHTML = `PPR: ${ppr}`;
+
+    if (uns === 0) {
+        reset.innerHTML = `Você chegou nos 90%!`;
+    } else {
+        reset.innerHTML = `Resets até os 90%: ${uns}`;
+    }
+}
+
+// geração
+function mudar_prob() {
+    let geracao = Number(select.value);
+
+    if (geracao <= 5) {
+        odds = 8192;
+    } else {
+        odds = 4096;
+    }
+
+    atualizarTudo();
+}
+
+// botões
+function adicionar() {
+    counter.value = Number(counter.value) + 1;
+    atualizarTudo();
+}
+
+function subtrair() {
+    if (Number(counter.value) > 0) {
+        counter.value = Number(counter.value) - 1;
+        atualizarTudo();
+    }
+}
+
+// eventos
+select.addEventListener("change", mudar_prob);
+select_metodos.addEventListener("change", atualizarTudo);
+counter.addEventListener("input", atualizarTudo);
+btnAdd.addEventListener("click", adicionar);
+btnSub.addEventListener("click", subtrair);
+select_pokemon.addEventListener("change", mostrarPokemon);
+
+// start
+mudar_prob();
+
+let pokemons = {};
+
+fetch("./pokemon.json")
+  .then(res => res.json())
+  .then(data => {
+    pokemons = data;
+    preencherSelect();
+    mostrarPokemon();
+  });
+
+  function preencherSelect() {
+    for (let id in pokemons) {
+        let option = document.createElement("option");
+        option.value = id;
+        option.textContent = `#${id} - ${pokemons[id].name}`;
+        select_pokemon.appendChild(option); 
+    }
+}
+
+  function mostrarPokemon() {
+    let id = select_pokemon.value;
+
+    let p = pokemons[id];
+
+    pokemon_img.src = p.img;
+}
+
+  window.onload = function() {
+        var nomeUsuario = sessionStorage.NOME_USUARIO;
+        var pokemonFavorito = sessionStorage.POKEMON_FAVORITO;
+    }
+
+    function limparSessao() {
+        sessionStorage.clear();
+        window.location = "index.html";
+    }
+</script>
+
+
+</html>
