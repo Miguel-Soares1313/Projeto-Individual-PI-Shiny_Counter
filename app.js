@@ -10,6 +10,9 @@ require("dotenv").config({ path: caminho_env });
 var express = require("express");
 var cors = require("cors");
 var path = require("path");
+var pokemonShinyRouter = require("./src/routes/pokemonShiny");
+var historicoRouter = require("./src/routes/historico");
+var dashboardRouter = require("./src/routes/dashboard");
 var PORTA_APP = process.env.APP_PORT;
 var HOST_APP = process.env.APP_HOST;
 
@@ -25,7 +28,9 @@ var usuarioRouter = require("./src/routes/usuarios");
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public")));
-
+app.use("/hunts", pokemonShinyRouter);
+app.use("/historico", historicoRouter);
+app.use("/dashboard", dashboardRouter);
 app.use(cors());
 
 app.use("/", indexRouter);

@@ -8,29 +8,76 @@
 
 <body>
 
+    <div id="lista_hunts"></div>
+
+    <button onclick="window.location = '/dashboard/dashboard.html'">Ver Dashboard</button>
+    <button id="btnNovaHunt">+</button>
+
+
+    <div id="modal" style="display:none">
+        <div id="modal_conteudo">
+            <h2>Nova Hunt</h2>
+            <select id="select_pokemon" size="5"></select>
+
+            <select id="select">
+                <option value="1">gen1</option>
+                <option value="2">gen2</option>
+                <option value="3">gen3</option>
+                <option value="4">gen4</option>
+                <option value="5">gen5</option>
+                <option value="6">gen6</option>
+                <option value="7">gen7</option>
+            </select>
+
+            <select id="select_metodos">
+                <option value="random">Random / SR</option>
+                <option value="masuda">Masuda Method</option>
+                <option value="dexnav">Dex Nav</option>
+                <option value="friend">Friend Safari</option>
+                <option value="radar">Radar Chaining</option>
+                <option value="fishing">Fishing Chain</option>
+                <option value="sosbattles">S.O.S Battles</option>
+            </select>
+
+            <button onclick="fecharModal()">Cancelar</button>
+            <button onclick="salvarHunt()">Iniciar Hunt</button>
+        </div>
+
+    </div>
+
+    <div id="modal_editar" style="display:none">
+        <div id="modal_editar_conteudo">
+            <h2>Editar Hunt</h2>
+            <input type="hidden" id="id_hunt_editar">
+
+            <select id="select_pokemon_editar" size="5"></select>
+
+            <select id="select_geracao_editar">
+                <option value="1">gen1</option>
+                <option value="2">gen2</option>
+                <option value="3">gen3</option>
+                <option value="4">gen4</option>
+                <option value="5">gen5</option>
+                <option value="6">gen6</option>
+                <option value="7">gen7</option>
+            </select>
+
+            <select id="select_metodo_editar">
+                <option value="random">Random / SR</option>
+                <option value="masuda">Masuda Method</option>
+                <option value="dexnav">Dex Nav</option>
+                <option value="friend">Friend Safari</option>
+                <option value="radar">Radar Chaining</option>
+                <option value="fishing">Fishing Chain</option>
+                <option value="sosbattles">S.O.S Battles</option>
+            </select>
+
+            <button onclick="fecharModalEditar()">Cancelar</button>
+            <button onclick="salvarEdicao()">Salvar</button>
+        </div>
+    </div>
+
     <br>
-    
-<select id="select_pokemon" size="5"></select>
-
-    <select id="select">
-        <option value="1">gen1</option>
-        <option value="2">gen2</option>
-        <option value="3">gen3</option>
-        <option value="4">gen4</option>
-        <option value="5">gen5</option>
-        <option value="6">gen6</option>
-        <option value="7">gen7</option>
-    </select>
-
-    <select id="select_metodos">
-        <option value="random">Random / SR</option>
-        <option value="masuda">Masuda Method</option>
-        <option value="dexnav">Dex Nav</option>
-        <option value="friend">Friend Safari</option>
-        <option value="radar">Radar Chaining</option>
-        <option value="fishing">Fishing Chain</option>
-        <option value="sosbattles">S.O.S Battles</option>
-    </select>
 
     <h1>
         <input id="counter" type="number" value="0" min="0">
@@ -51,159 +98,346 @@
     <button id="btnAdd"> + 1 </button>
     <button id="btnSub"> - 1 </button>
 
-    
+
 
 </body>
 
 <script>
-let odds = 0;
-let odds_atual = 0;
-let ppr = 0;
-let uns = 0;
-let contador = 0;
+    let odds = 0;
+    let odds_atual = 0;
+    let ppr = 0;
+    let uns = 0;
+    let contador = 0;
+    let huntAtiva = null;
 
-// pegar elementos (IMPORTANTE agora que está separado)
+    // pegar elementos (IMPORTANTE agora que está separado)
 
-// métodos
-let metodos = {
-    random: (chain, odds_base) => odds_base,
+    // métodos
+    let metodos = {
+        random: (chain, odds_base) => odds_base,
 
-    masuda: (_, __, geracao) => {
-        if (geracao <= 4) return 1638;
-        if (geracao === 5) return 1365;
-        return 683;
-    },
+        masuda: (_, __, geracao) => {
+            if (geracao <= 4) return 1638;
+            if (geracao === 5) return 1365;
+            return 683;
+        },
 
-    friend: (_, __, geracao) => {
-        if (geracao === 6) return 512;
-        return odds;
-    },
+        friend: (_, __, geracao) => {
+            if (geracao === 6) return 512;
+            return odds;
+        },
 
-    radar: (chain, odds_base) => {
-        return odds_base - (chain / 40) * (odds_base - 200);
-    },
+        radar: (chain, odds_base) => {
+            return odds_base - (chain / 40) * (odds_base - 200);
+        },
 
-    fishing: (chain, odds_base) => {
-        return odds_base - (chain / 40) * (odds_base - 200);
-    },
+        fishing: (chain, odds_base) => {
+            return odds_base - (chain / 40) * (odds_base - 200);
+        },
 
-    sosbattles: (chain, odds_base) => {
-        if (chain < 10) return odds_base;
-        if (chain < 20) return odds_base / 1.5;
-        if (chain < 30) return odds_base / 2;
-        if (chain < 70) return odds_base / 3;
-        return odds_base / 4;
-    },
+        sosbattles: (chain, odds_base) => {
+            if (chain < 10) return odds_base;
+            if (chain < 20) return odds_base / 1.5;
+            if (chain < 30) return odds_base / 2;
+            if (chain < 70) return odds_base / 3;
+            return odds_base / 4;
+        },
 
-    dexnav: (chain, odds_base) => {
-        let level = contador;
-        let bonus = Math.min(level / 1000, 0.4);
-        return odds_base * (1 - bonus);
-    }
-};
+        dexnav: (chain, odds_base) => {
+            let level = contador;
+            let bonus = Math.min(level / 1000, 0.4);
+            return odds_base * (1 - bonus);
+        }
+    };
 
-// função principal
-function atualizarTudo() {
-    contador = Number(counter.value);
+    // função principal
+    function atualizarTudo() {
+        contador = Number(counter.value);
 
-    let geracao = Number(select.value);
-    let metodo = select_metodos.value;
+        let geracao = Number(select.value);
+        let metodo = select_metodos.value;
 
-    let chain = Math.max(0, Math.min(contador, 40));
+        let chain = Math.max(0, Math.min(contador, 40));
 
-    odds_atual = metodos[metodo](chain, odds, geracao);
+        odds_atual = metodos[metodo](chain, odds, geracao);
 
-    // PPR
-    ppr = ((1 - (1 - (1 / odds_atual)) ** contador) * 100).toFixed(2);
+        // PPR
+        ppr = ((1 - (1 - (1 / odds_atual)) ** contador) * 100).toFixed(2);
 
-    // UNS (90%)
-    let alvo = 0.9;
-    let total = Math.log(1 - alvo) / Math.log(1 - (1 / odds_atual));
-    uns = Math.max(Math.ceil(total - contador), 0);
+        // UNS (90%)
+        let alvo = 0.9;
+        let total = Math.log(1 - alvo) / Math.log(1 - (1 / odds_atual));
+        uns = Math.max(Math.ceil(total - contador), 0);
 
-    // UI
-    prob.innerHTML = `1 / ${Math.round(odds_atual)}`;
-    shiny_por_reset.innerHTML = `PPR: ${ppr}`;
+        // UI
+        prob.innerHTML = `1 / ${Math.round(odds_atual)}`;
+        shiny_por_reset.innerHTML = `PPR: ${ppr}`;
 
-    if (uns === 0) {
-        reset.innerHTML = `Você chegou nos 90%!`;
-    } else {
-        reset.innerHTML = `Resets até os 90%: ${uns}`;
-    }
-}
-
-// geração
-function mudar_prob() {
-    let geracao = Number(select.value);
-
-    if (geracao <= 5) {
-        odds = 8192;
-    } else {
-        odds = 4096;
+        if (uns === 0) {
+            reset.innerHTML = `Você chegou nos 90%!`;
+        } else {
+            reset.innerHTML = `Resets até os 90%: ${uns}`;
+        }
     }
 
-    atualizarTudo();
-}
+    // geração
+    function mudar_prob() {
+        let geracao = Number(select.value);
 
-// botões
-function adicionar() {
-    counter.value = Number(counter.value) + 1;
-    atualizarTudo();
-}
+        if (geracao <= 5) {
+            odds = 8192;
+        } else {
+            odds = 4096;
+        }
 
-function subtrair() {
-    if (Number(counter.value) > 0) {
-        counter.value = Number(counter.value) - 1;
         atualizarTudo();
     }
-}
 
-// eventos
-select.addEventListener("change", mudar_prob);
-select_metodos.addEventListener("change", atualizarTudo);
-counter.addEventListener("input", atualizarTudo);
-btnAdd.addEventListener("click", adicionar);
-btnSub.addEventListener("click", subtrair);
-select_pokemon.addEventListener("change", mostrarPokemon);
-
-// start
-mudar_prob();
-
-let pokemons = {};
-
-fetch("./pokemon.json")
-  .then(res => res.json())
-  .then(data => {
-    pokemons = data;
-    preencherSelect();
-    mostrarPokemon();
-  });
-
-  function preencherSelect() {
-    for (let id in pokemons) {
-        let option = document.createElement("option");
-        option.value = id;
-        option.textContent = `#${id} - ${pokemons[id].name}`;
-        select_pokemon.appendChild(option); 
+    // botões
+    function adicionar() {
+        counter.value = Number(counter.value) + 1;
+        atualizarTudo();
+        if (huntAtiva != null) {
+            fetch("/historico/salvar", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    fkPokemonShinyServer: huntAtiva
+                })
+            }).then(function (resposta) {
+                if (resposta.ok) {
+                    console.log("Reset salvo!");
+                } else {
+                    console.log("Erro ao salvar reset!");
+                }
+            }).catch(function (erro) {
+                console.log(erro);
+            });
+        }
     }
-}
 
-  function mostrarPokemon() {
-    let id = select_pokemon.value;
+    function subtrair() {
+        if (Number(counter.value) > 0) {
+            counter.value = Number(counter.value) - 1;
+            atualizarTudo();
+            if (huntAtiva != null) {
+                fetch("/historico/subtrair", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        fkPokemonShinyServer: huntAtiva
+                    })
+                }).then(function (resposta) {
+                    if (resposta.ok) {
+                        console.log("Reset salvo!");
+                    } else {
+                        console.log("Erro ao salvar reset!");
+                    }
+                }).catch(function (erro) {
+                    console.log(erro);
+                });
+            }
+        }
+    }
 
-    let p = pokemons[id];
+    // eventos
+    select.addEventListener("change", mudar_prob);
+    select_metodos.addEventListener("change", atualizarTudo);
+    counter.addEventListener("input", atualizarTudo);
+    btnAdd.addEventListener("click", adicionar);
+    btnSub.addEventListener("click", subtrair);
+    select_pokemon.addEventListener("change", mostrarPokemon);
 
-    pokemon_img.src = p.img;
-}
+    // start
+    mudar_prob();
 
-  window.onload = function() {
+    let pokemons = {};
+
+    fetch("./pokemon.json")
+        .then(res => res.json())
+        .then(data => {
+            pokemons = data;
+            preencherSelect();
+            mostrarPokemon();
+        });
+
+    function preencherSelect() {
+        for (let id in pokemons) {
+            let option = document.createElement("option");
+            option.value = id;
+            option.textContent = `#${id} - ${pokemons[id].name}`;
+            select_pokemon.appendChild(option);
+
+            let option2 = document.createElement("option");
+            option2.value = id;
+            option2.textContent = `#${id} - ${pokemons[id].name}`;
+            select_pokemon_editar.appendChild(option2);
+        }
+    }
+
+    function mostrarPokemon() {
+        let id = select_pokemon.value;
+
+        if (id && pokemons[id]) {
+            let p = pokemons[id];
+            pokemon_img.src = p.img;
+        }
+    }
+
+    window.onload = function () {
         var nomeUsuario = sessionStorage.NOME_USUARIO;
         var pokemonFavorito = sessionStorage.POKEMON_FAVORITO;
+        carregarHuntsAtivas();
     }
 
     function limparSessao() {
         sessionStorage.clear();
         window.location = "index.html";
+    }
+
+    // abrir
+    btnNovaHunt.addEventListener("click", function () {
+        modal.style.display = "block";
+    });
+
+    // fechar
+    function fecharModal() {
+        modal.style.display = "none";
+    }
+
+
+    function salvarHunt() {
+        var nomeVar = pokemons[select_pokemon.value].name;
+        var geracaoVar = select.value;
+        var metodoVar = select_metodos.value;
+        var fkUsuarioVar = sessionStorage.ID_USUARIO;
+
+        fetch("/hunts/criar", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                nomeServer: nomeVar,
+                geracaoServer: geracaoVar,
+                metodoServer: metodoVar,
+                fkUsuarioServer: fkUsuarioVar
+            })
+        }).then(function (resposta) {
+            if (resposta.ok) {
+                resposta.json().then(function (json) {
+                    huntAtiva = json.insertId;
+                    console.log("Hunt criada! ID:", huntAtiva);
+                    fecharModal();
+                });
+            } else {
+                console.log("Erro ao criar hunt!");
+            }
+        });
+    }
+
+    function carregarHuntsAtivas() {
+        var idUsuario = sessionStorage.ID_USUARIO;
+
+        fetch(`/hunts/ativas/${idUsuario}`)
+            .then(res => res.json())
+            .then(data => {
+                data.forEach(hunt => {
+                    lista_hunts.innerHTML += `
+                    <button onclick="selecionarHunt(${hunt.idpokemon_shiny}, '${hunt.nome}')">
+                        ${hunt.nome} - Gen ${hunt.geracao} - ${hunt.metodo}
+                    </button>
+                    <button onclick="deletarHunt(${hunt.idpokemon_shiny})">Deletar</button>
+
+                    <button onclick="abrirModalEditar(${hunt.idpokemon_shiny}, '${hunt.nome}', '${hunt.geracao}', '${hunt.metodo}')">Editar</button>
+                `;
+                });
+            });
+
+
+
+    }
+
+    function deletarHunt(idPokemonShiny) {
+        fetch(`/hunts/deletar/${idPokemonShiny}`, {
+            method: "DELETE"
+        }).then(function (resposta) {
+            if (resposta.ok) {
+                console.log("Hunt deletada!");
+                lista_hunts.innerHTML = "";
+                carregarHuntsAtivas();
+            } else {
+                console.log("Erro ao deletar hunt!");
+            }
+        }).catch(function (erro) {
+            console.log(erro);
+        });
+    }
+
+    function selecionarHunt(id, nome) {
+        huntAtiva = id;
+        console.log("Hunt selecionada:", nome, "ID:", id);
+
+        fetch(`/historico/total/${id}`)
+            .then(res => res.json())
+            .then(data => {
+                counter.value = data[0].total || 0;
+                atualizarTudo();
+            });
+            
+        for (let key in pokemons) {
+            if (pokemons[key].name === nome) {
+                pokemon_img.src = pokemons[key].img;
+                break;
+            }
+        }
+
+    }
+
+    function abrirModalEditar(id, nome, geracao, metodo) {
+        huntAtiva = id;
+        id_hunt_editar.value = id;
+        select_geracao_editar.value = geracao;
+        select_metodo_editar.value = metodo;
+        modal_editar.style.display = "block";
+    }
+
+    function fecharModalEditar() {
+        modal_editar.style.display = "none";
+    }
+
+    function salvarEdicao() {
+        var idHunt = id_hunt_editar.value;
+        var nomeVar = pokemons[select_pokemon_editar.value].name;
+        var geracaoVar = select_geracao_editar.value;
+        var metodoVar = select_metodo_editar.value;
+
+        fetch(`/hunts/editar/${idHunt}`, {
+            method: "PUT",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                nomeServer: nomeVar,
+                geracaoServer: geracaoVar,
+                metodoServer: metodoVar
+            })
+        }).then(function (resposta) {
+            if (resposta.ok) {
+                console.log("Hunt editada!");
+                fecharModalEditar();
+                lista_hunts.innerHTML = "";
+                carregarHuntsAtivas();
+            } else {
+                console.log("Erro ao editar hunt!");
+            }
+        }).catch(function (erro) {
+            console.log(erro);
+        });
     }
 </script>
 
