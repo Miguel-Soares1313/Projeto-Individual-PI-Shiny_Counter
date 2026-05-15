@@ -6,57 +6,51 @@
 comandos para mysql server
 */
 
-CREATE DATABASE aquatech;
+CREATE DATABASE shiny_hunt;
+USE shiny_hunt;
 
-USE aquatech;
-
-CREATE TABLE empresa (
-	id INT PRIMARY KEY AUTO_INCREMENT,
-	razao_social VARCHAR(50),
-	cnpj CHAR(14),
-	codigo_ativacao VARCHAR(50)
+CREATE TABLE pokemon_favorito (
+  idpokemon_favorito INT NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(45) NULL,
+  tipo1 VARCHAR(45) NULL,
+  tipo2 VARCHAR(45) NULL,
+  PRIMARY KEY(idpokemon_favorito)
 );
 
 CREATE TABLE usuario (
-	id INT PRIMARY KEY AUTO_INCREMENT,
-	nome VARCHAR(50),
-	email VARCHAR(50),
-	senha VARCHAR(50),
-	fk_empresa INT,
-	FOREIGN KEY (fk_empresa) REFERENCES empresa(id)
+  idusuario INT NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(45) NULL,
+  email VARCHAR(80) NULL,
+  senha VARCHAR(45) NULL,
+  fk_pokemon_favorito INT NOT NULL,
+  PRIMARY KEY(idusuario),
+  CONSTRAINT fk_usuario_pokemon_favorito
+    FOREIGN KEY (fk_pokemon_favorito)
+    REFERENCES pokemon_favorito(idpokemon_favorito)
 );
 
-CREATE TABLE aviso (
-	id INT PRIMARY KEY AUTO_INCREMENT,
-	titulo VARCHAR(100),
-	descricao VARCHAR(150),
-	fk_usuario INT,
-	FOREIGN KEY (fk_usuario) REFERENCES usuario(id)
+CREATE TABLE pokemon_shiny (
+  idpokemon_shiny INT NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(45) NULL,
+  geracao VARCHAR(45) NULL,
+  metodo VARCHAR(45) NULL,
+  status VARCHAR(45) DEFAULT 'ativa',
+  fk_usuario INT NOT NULL,
+  PRIMARY KEY(idpokemon_shiny),
+  CONSTRAINT fk_pokemon_shiny_usuario
+    FOREIGN KEY (fk_usuario)
+    REFERENCES usuario(idusuario)
 );
 
-create table aquario (
-/* em nossa regra de negócio, um aquario tem apenas um sensor */
-	id INT PRIMARY KEY AUTO_INCREMENT,
-	descricao VARCHAR(300),
-	fk_empresa INT,
-	FOREIGN KEY (fk_empresa) REFERENCES empresa(id)
+CREATE TABLE historico_de_resets (
+  idhistorico_de_resets INT NOT NULL AUTO_INCREMENT,
+  qtd_tentativas_total INT NULL,
+  qtd_tentativas_dia INT NULL,
+  data DATE NULL,
+  fk_pokemon_shiny INT NOT NULL,
+  PRIMARY KEY(idhistorico_de_resets),
+  CONSTRAINT fk_historico_de_resets_pokemon_shiny
+    FOREIGN KEY (fk_pokemon_shiny)
+    REFERENCES pokemon_shiny(idpokemon_shiny),
+  UNIQUE KEY unique_reset_dia (data, fk_pokemon_shiny)
 );
-
-/* esta tabela deve estar de acordo com o que está em INSERT de sua API do arduino - dat-acqu-ino */
-
-create table medida (
-	id INT PRIMARY KEY AUTO_INCREMENT,
-	dht11_umidade DECIMAL,
-	dht11_temperatura DECIMAL,
-	luminosidade DECIMAL,
-	lm35_temperatura DECIMAL,
-	chave TINYINT,
-	momento DATETIME,
-	fk_aquario INT,
-	FOREIGN KEY (fk_aquario) REFERENCES aquario(id)
-);
-
-insert into empresa (razao_social, codigo_ativacao) values ('Empresa 1', 'ED145B');
-insert into empresa (razao_social, codigo_ativacao) values ('Empresa 2', 'A1B2C3');
-insert into aquario (descricao, fk_empresa) values ('Aquário de Estrela-do-mar', 1);
-insert into aquario (descricao, fk_empresa) values ('Aquário de Peixe-dourado', 2);
